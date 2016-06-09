@@ -88,3 +88,10 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+
+POSTGRES_URI = ''
+POSTGRES_DB = ''
+POSTGRES_USER = ''
+POSTGRES_PASS = ''
+POSTGRES_PORT = ''
