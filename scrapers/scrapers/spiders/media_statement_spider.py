@@ -26,7 +26,7 @@ class WAMediaStatementSpider(scrapy.Spider):
                 continue
             # try looking up using google
             if loc not in ["WA", "Western Australia", "Australia"]:
-                g = geocoder.google(loc, components="country:AU")
+                g = geocoder.google(loc, components="country:AU|administrative_area:WA")
                 accuracy = g.accuracy
                 address = g.address
                 geom = g.geometry

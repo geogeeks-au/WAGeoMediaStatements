@@ -2,13 +2,251 @@
   {
     "locations": [
       [
-        "GEOMETRIC_CENTER",
-        "State Cir, Canberra ACT, Australia",
+        "APPROXIMATE",
+        "Perth WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            149.1295201,
-            -35.3082562
+            115.8570471,
+            -31.9535132
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Western Australia, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.6283098,
+            -27.6728168
+          ]
+        }
+      ]
+    ],
+    "statement": "More than 200 people will hear three inspirational West Australian women share their experiences in business and their road to success at a Liberal National Government event in Perth this month. Deputy Premier and Women's Interests Minister Liza Harvey said the fifth annual Inspiring Entrepreneurship Luncheon on Friday, June 24 would provide attendees with the opportunity to network with like-minded entrepreneurs and leaders across WA business, government and community sectors. \"Entrepreneurship is a pathway for women to achieve economic independence while providing the flexibility that many women need to juggle other commitments,\" Mrs Harvey said. \"The number of female small business owners in WA is growing, and so is the interest in hearing their success stories and the challenges they have encountered along the way. \"This annual event has become a wonderful opportunity to network with innovative businesswomen and businessmen in this State.\" \"The Liberal National Government is committed to promote and enhance the economic independence and leadership of Western Australian women.\" The keynote speakers include Vanya Cullen from Cullen Wines, Sharon Grosser from SEQTA Software and Louise Daw from MiPlan. Deputy Premier and Women's Interests Minister's office - 6552 5900",
+    "title": [
+      "Female entrepreneurs inspire WA business"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "APPROXIMATE",
+        "Guildford WA 6055, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.9714263,
+            -31.8995321
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Swan River, Perth WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.9115735,
+            -31.8920288
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Meadow WA 6532, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            114.6099608,
+            -26.8038619
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Victoria, Mount Jackson WA 6426, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            119.1,
+            -30.1833333
+          ]
+        }
+      ]
+    ],
+    "statement": "The Water Corporation will soon begin work to refurbish wastewater pipes in Guildford to extend the life of the important infrastructure by at least 50 years. Water Minister Mia Davies said the $1.3 million Liberal National Government project formed part of an ongoing program to reline and refurbish wastewater pipes across the State.  \"About 1.6 kilometres of wastewater pipes along Meadow, Victoria and Swan streets will be refurbished over the next two months,\" Ms Davies said. The Minister said the corporation used trenchless technology to reline wastewater pipes where possible.\u00a0 This technology avoided the need for extensive excavation to access the wastewater pipes, which kept disruption to the community and road users to a minimum. \"Residents may notice an increase in activity along the pipeline route, however traffic management will be in place at all times and disruption will be kept to a minimum,\" she said.  \"I want to thank the residents in advance for their patience while the corporation carries out this work.\" The corporation will work closely with local residents to keep them informed before work begins in their area. For more information about the project, visit    Minister's office - 6552 5500",
+    "title": [
+      "Improving wastewater pipes in Guildford"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "GEOMETRIC_CENTER",
+        "Savannah Corner, Nickol WA 6714, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            116.7946934,
+            -20.7425061
+          ]
+        }
+      ]
+    ],
+    "statement": "Mines and Petroleum Minister Sean L'Estrange today announced the Liberal National Government's commitment of $5.14 million in exploration funding for Round 13 of the highly competitive Co-funded Drilling Program under the Exploration Incentive Scheme (EIS). The Co-funded Drilling Program refunds up to 50 per cent of direct drilling costs with caps of $150,000 for a multi-hole project, $200,000 for a single deep hole and $30,000 for a prospector's project.  A total of 48 companies and prospectors successfully applied to receive the co-funding for exploration drilling projects. The Co-funded Drilling Program is in its eighth year and continues to help explorers make exciting new discoveries. \"I am pleased we have allocated $30 million to the EIS out to 2020,\" Mr L'Estrange said. \"The Co-funded Drilling Program provides incentives to drill in under-explored areas and is the key to the continued economic prosperity of the State's resources industry. \"This program has already been successful with commercially promising and scientifically interesting projects. \"The Nova nickel project is the stand-out discovery of the past few years having used State Government pre-competitive data as well as co-funding support.\u00a0 In addition, there have been more than 20 other mineral discoveries that can be credited to the drilling program.\" Recent finds include nickel by Panoramic Resources at its Savannah North project, zinc at Millennium by Encounter Resources, and gold at Alloy Resources' Horse Well project and at Gold Road Resources' Gruyere discovery in the Yamarna greenstone belt. The Minister said the Government's decision to offer $5.14 million in co-funding in Round 13 showed its continued commitment to the long-term development of Western Australia's resources sector.  Round 13 successful applicants are available at    Minister's office - 6552 6900",
+    "title": [
+      "Incentive scheme injects $5m for mines exploration"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "GEOMETRIC_CENTER",
+        "Shire St, Pingelly WA 6308, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            117.0909291,
+            -32.5341302
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Esperance WA 6450, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.8932484,
+            -33.8594128
+          ]
+        }
+      ]
+    ],
+    "statement": "People living and working in the regional communities of Salmon Gums and Grass Patch, in the Shire of Esperance, now have greater access to mobile telephone coverage and high-speed wireless broadband, as part of an $85 million investment through the State Government's Royalties for Regions program. Commerce Minister Michael Mischin said improving connectivity was a vital step forward for social and economic development in regional areas. \"The new towers will expand the connectivity along the Coolgardie-Esperance Highway and further into the agricultural heartland of the Shire of Esperance,\" Mr Mischin said. \"Salmon Gums and Grass Patch are important grain receiver points and participate in agricultural research trials aimed at improving crop production. These towers will ensure farmers and local businesses have access to reliable mobile voice and data services. \u00a0 \"The new connectivity will make it easier for families to keep in touch, ensure motorists feel safer and better equipped, and improve emergency service response times.\" Regional Development Minister Terry Redman said it was vital mobile voice and data services were expanded in the regions to improve Government service delivery and support the growth and prosperity of regional businesses and communities. \"The Liberal National Government's investment in mobile telecommunications infrastructure is helping to bridge the digital divide for people living and working in our regional areas,\" Mr Redman said. \"Research has shown that people living in the regions are more willing to embrace and seek new technologies and this infrastructure enables them to do so.\u00a0 Royalties for Regions initiatives such as this contribute to a better quality of life and a brighter future for everyone in our regions.\"\u00a0  Commerce Minister's office - 6552 5600 Regional Development Minister's office - 6552 6700",
+    "title": [
+      "Towns in the Shire of Esperance get connected"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "APPROXIMATE",
+        "Broome WA 6725, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            122.2443272,
+            -17.9512214
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Kimberley, WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            126.6093926,
+            -17.8480073
+          ]
+        }
+      ]
+    ],
+    "statement": "Lands Minister Terry Redman today announced Kimberley Asparagus Pty Ltd, a joint venture between local Rusty Dredge and the Western Australian branch of the Fresh Produce Group, had been successful in its land release proposal for the Skuthorpe Horticulture Area near Broome. The Department of Lands ran an Expressions of Interest process for initiatives that promote horticultural activity for the 682 hectares of land.\u00a0 Proposals were received from a variety of businesses.  Mr Redman said the panel determined Kimberley Asparagus met all criteria at a high level and demonstrated its understanding of growing in local conditions, export potential, and had retail opportunities to sell its product. \"Kimberley Asparagus was chosen as it had a clear vision for expanding horticultural opportunities in the Kimberley region, which will also boost job opportunities in the region,\" he said. \"The prospective economic benefits for WA are significant, with the potential to create export opportunities for the asparagus which will be produced.\" The land release was made possible by the Liberal National Government's unprecedented investment in agriculture under the $350 million Seizing the Opportunity Agriculture initiative, made possible by the State Government's Royalties for Regions program. It is expected 55 jobs will be created, with flow-on benefits including revitalisation of the regional economy, purchase of technical services and investment in the community.\u00a0 The proposal will also earn export income for WA. Water Minister Mia Davies said the Kimberley Asparagus proposal was a significant opportunity to develop irrigated agriculture in the region. \"This venture is consistent with the focus of the Water for Food program in supporting regional growth and economic development through the expansion of irrigated agriculture,\" Ms Davies said. Lands Minister's office - 6552 6700 Water Minister's office - 6552 5500",
+    "title": [
+      "Broome horticultural land to open new markets"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "APPROXIMATE",
+        "Esperance WA 6450, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.8932484,
+            -33.8594128
+          ]
+        }
+      ]
+    ],
+    "statement": "Regional Development Minister Terry Redman today announced the Esperance Aged Care Facility was set for major improvements with a $3 million State Government Royalties for Regions investment as part of the Goldfields-Esperance Revitalisation Fund. \"This Liberal National Government project will include the construction of a modern, new 34-bed complex consisting of 17 general residential beds and 17 secure residential beds for people living with dementia.\u00a0 At project completion, there will be 114 beds available at the facility,\" Mr Redman said. \"The expanded facility will address current and future demand for residential care in the Esperance region.\" The Minister said the expansion of the Esperance Aged Care Facility supported the continued development of age-friendly communities in regional Western Australia. \"Royalties for Regions is aimed at retaining and growing population in the regions, and by investing in appropriate health services and infrastructure, we are helping to create sustainable regional communities,\" he said. \"Royalties for Regions is playing a vital role in supporting our regions and I look forward to seeing the completion of the facility.\" The Goldfields-Esperance Revitalisation Fund is a Royalties for Regions initiative that invests in priority projects to enable economic and social development in the region Minister's office - 6552 6700",
+    "title": [
+      "Expansion for Esperance Aged Care Facility"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "APPROXIMATE",
+        "Broome WA 6725, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            122.2443272,
+            -17.9512214
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Kimberley, WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            126.6093926,
+            -17.8480073
+          ]
+        }
+      ]
+    ],
+    "statement": "The Liberal National Government today awarded $145,000 to organisations in the Kimberley to conduct suicide prevention training. Mental Health Minister Andrea Mitchell said the grants would specifically target at-risk groups, with $93,000 allocated to train Aboriginal people to strengthen their communities and help reduce the incidence of suicide. \"These grants will fund intensive training courses that will give participants an understanding of mental illness, an insight into the thinking of sufferers and knowledge on how to provide immediate help,\" Ms Mitchell said. \"It is important to train people to support family, friends and community members who are experiencing a mental health crisis or are having suicidal thoughts.  \"These courses aim to teach participants to identify when someone needs help and to know what to do immediately to keep that person safe.\" Broome Regional Aboriginal Medical Service will receive $11,940 to deliver Applied Suicide Intervention Skills Training to workers and caregivers, and Opening Closets training to members of the LGBTI community. The grants are part of the State Government's $25.9 million suicide prevention strategy, Suicide Prevention 2020: Together we can save lives, which aims to halve the number of suicides over 10 years.  The Minister said further grants for suicide prevention training across Western Australia were being finalised and would be announced shortly. Minister's office - 6552 5400",
+    "title": [
+      "Grants for Kimberley suicide prevention training"
+    ]
+  },
+  {
+    "locations": [],
+    "statement": "Primary school students at hundreds of public schools across Western Australia are set to benefit from thousands of new tablets, laptops, desktop computers and accessories. Education Minister Peter Collier today announced 572 schools are receiving funding to purchase new hardware and software under the Liberal National Government's $20 million Primary Device Program 2016-17. \"There is a growing evidence which shows the importance of developing students' digital literacy,\" Mr Collier said. \"The recent Organisation for Economic Co-operation and Development (OECD) report, 'Students, Computers and Learning: Making the Connection', makes the case for technology in schools so children can learn the skills they need to succeed in the future.\"  The Minister said the technology would be integrated carefully into learning programs. \"When part of a balanced education program, IT devices can be powerful tools for helping students improve their literacy and numeracy skills,\" he said. Schools are investing in new devices and accessories such as charging stations, trolleys, power boards and monitors, with school funds matched dollar-for-dollar by the State Government up to a total of $20 million. \"I am delighted with the success of this program, which is in addition to more than $30 million in ICT upgrades in Western Australian schools,\" Mr Collier said. Minister's office - 6552 6300",
+    "title": [
+      "Primary students get tech-savvy for learning"
+    ]
+  },
+  {
+    "locations": [],
+    "statement": "Forestry Minister Mia Davies today welcomed the appointment of Stuart West as general manager of the Forest Products Commission (FPC), who will commence in the role on June 20, 2016.\u00a0  \"Stuart brings with him a wealth of government forestry experience, having held the executive responsibility for the forestry portfolio in the South Australian government over the past 12 years,\" Ms Davies said.\u00a0  \"He has a genuine commitment to the Australian forestry industry, with broad experience in national and international matters, and I look forward to working with him to advance the State's forest and wood products industry.\" Mr West said he was honoured to have the opportunity to work with stakeholders to foster new opportunities and encourage new investment to ensure the long-term viability and sustainability of forestry in Western Australia.  The Minister said it was a positive time for the Western Australian forestry, both with Mr West's appointment and the Liberal National Government working directly with the industry on long-term plans through the recently established Forest Industry Working Group, chaired by Parliamentary Secretary Vince Catania. Ms Davies thanked Gavin Butcher, the acting general manager, for leading the commission while the recruitment process was under way.  Minister's office - 6552 5500",
+    "title": [
+      "New GM for Forest Products Commission"
+    ]
+  },
+  {
+    "locations": [],
+    "statement": "The Liberal National Government today committed a further $21,330 to community road safety initiatives to help raise awareness of road safety across Western Australia. Deputy Premier and Road Safety Minister Liza Harvey said the range of grassroots projects in the latest round of the Community Grants Program was inspiring. \"There's a great variety, including a football carnival where the players pledge to drink only water straight after the game,\" Mrs Harvey said. \"Importantly, all of these projects help to educate the local community about the importance of road safety in WA.\" The Community Grants Program is administered through the Road Safety Commission and funded by the Road Trauma Trust Account.\u00a0  The Minister said the State Government had committed $360,000 to community grants in the 2015-16 financial year. Deputy Premier and Road Safety Minister's office - 6552 5900",
+    "title": [
+      "More community road safety projects funded"
+    ]
+  },
+  {
+    "locations": [],
+    "statement": "Mental Health Minister Andrea Mitchell today officially launched the WA Eating Disorders Outreach and Consultation Service (WAEDOCS). The service provides State-wide consultation and education services to clinicians caring for adults and youths aged over 16 with eating disorders. Ms Mitchell said the launch marked early delivery of an enhanced State-wide eating disorder service in line with the Western Australian Mental Health, Alcohol and Other Drug Services Plan 2015-2025, which recommended such a service be established by the end of 2017. \"Eating disorders have the highest mortality of any psychiatric disorder, so the importance of this service cannot be underestimated,\" she said. \"The window of opportunity for successful treatment outcomes for individuals with eating disorders begins to decline after three years, so it is important to invest in effective services for the years following the onset of the disorder. \"WAEDOCS will enhance the knowledge and skills of current community and hospital health professionals to deliver best-practice treatment and support through consulting, mentoring, training and education.\" The focus of the service will be capacity building within local health and mental health care services and guiding services to develop evidence-based patient-centered care pathways within and between treatment settings.\u00a0 This will support sustained recovery and minimise relapse and hospitalisation. WAEDOCS has already developed a guideline for the admission and inpatient treatment of people with eating disorders in WA. The service is available to clinicians throughout WA across all settings, including emergency departments, medical wards, mental health units, Hospital in the Home teams and clinical community services.\u00a0 It is also available to general practitioners and community health and mental health care services across public, private and community-managed organisations. Minister's office - 6552 5400",
+    "title": [
+      "WA eating disorders service launched"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "GEOMETRIC_CENTER",
+        "State St, Victoria Park WA 6100, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.8978914,
+            -31.9810466
           ]
         }
       ],
@@ -44,573 +282,48 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Manjimup WA 6258, Australia",
+        "Albany WA 6330, Australia",
         {
           "type": "Point",
           "coordinates": [
-            116.1455942,
-            -34.2418403
+            117.8847286,
+            -35.0238227
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Perth WA, Australia",
+        "Sorrento WA 6020, Australia",
         {
           "type": "Point",
           "coordinates": [
-            115.8570471,
-            -31.9535132
+            115.7592106,
+            -31.822268
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Tammin WA 6409, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
-          ]
-        }
-      ],
-      [
-        "GEOMETRIC_CENTER",
-        "Great Southern Hwy, Western Australia, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            117.616879,
-            -33.7926564
-          ]
-        }
-      ]
-    ],
-    "statement": "The first stage of construction of the new Warren Health Service in Manjimup is now complete. Health Minister John Day said forward works included demolition of the corporate services building and some accommodation blocks of the old hospital, diversion of existing services and preparation of the foundations for the new building. \"The building tender for the main build of the new Warren Health Service has now been released and the contract is due to be awarded in July 2016.\u00a0 Construction will begin soon after and the hospital is due to be completed by mid-2018,\" Mr Day said.  \"The new hospital will include a state-of-the-art emergency department, an inpatient ward, surgical services, operating theatre, medical imaging, pathology and outpatient, primary health care and other support services.\" The new build is part of the State Government's Royalties for Regions investment in the Southern Inland Health Initiative's capital infrastructure program that prioritises new builds and upgrades to 37 hospitals and health services in the Wheatbelt, South-West, Great Southern and Mid-West. Regional Development Minister Terry Redman said the Liberal National Government's $500 million Southern Inland Health Initiative had been made possible by the Royalties for Regions program and was being delivered by the WA Country Health Service. \"As the Member for Warren-Blackwood, I'm pleased to see this new health facility come to fruition and for the people of Manjimup to be provided with a modern, well-equipped health facility that suit present and future needs,\" Mr Redman said. \"Royalties for Regions is transforming health care across regional Western Australia.\u00a0 Regional communities deserve access to a high level of health care and investing in health infrastructure and services can reduce the need for residents to travel to Perth for diagnosis or treatment.\" Health Minister's office - 6552 6200 Regional Development Minister's office - 6552 6700",
-    "title": [
-      "Milestone reached for new Manjimup hospital"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "APPROXIMATE",
-        "Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            133.775136,
-            -25.274398
-          ]
-        }
-      ],
-      [
-        "GEOMETRIC_CENTER",
-        "State Route 92, Cedar Creek QLD 4207, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            153.1814345,
-            -27.8256866
-          ]
-        }
-      ]
-    ],
-    "statement": "Economic development, an innovative and skilled workforce and growing export markets were just some of the opportunities highlighted in the CEDA State of the Regions series report, released today. Regional Development Minister Terry Redman launched the report at the CEDA State of the Regions Series: Regional development in Western Australia event.\u00a0  The report is the culmination of a two-year regional event series held by CEDA in each of the nine regions across the State. \"The final report captures the key findings and outcomes of the series and outlines an action plan for capitalising on opportunities to ensure sustainable, long-term growth for our regions,\" Mr Redman said. \"CEDA's State of the Regions series has generated robust discussion on development and growth opportunities within WA's regional economies.\u00a0  \"The series has also provided the nine regional development commissions with a platform to outline the growth and development aspirations mapped out in their Regional Investment Blueprints.\" The Minister also outlined a strategic approach to building vibrant regions with strong economies, with the release of the Regional Development Strategy 2016-2025. \"Our regions are vital drivers of the State's economy, contributing more than one-third of WA's economic activity and 95 per cent of the State's exports,\" he said. \"As WA's economy transitions, regional development is uniquely positioned to help broaden the economy through a focus on jobs and growth. \"The Regional Development Strategy provides a framework to prioritise and progress the development opportunities with the most potential emerging from blueprints and other sources.\" Minister's office - 6552 6700",
-    "title": [
-      "Economic growth key for regional development"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "GEOMETRIC_CENTER",
-        "Rio Vista Blvd, Gold Coast QLD, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            153.4149915,
-            -28.0386862
-          ]
-        }
-      ],
-      [
-        "GEOMETRIC_CENTER",
-        "Iron Ore Parade, Newman WA 6753, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            119.734158,
-            -23.356472
+            117.4836406,
+            -31.6419255
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Perth WA, Australia",
+        "Mundaring WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            115.8570471,
-            -31.9535132
-          ]
-        }
-      ]
-    ],
-    "statement": "Premier Colin Barnett today announced that the new $1.2 billion Perth Children's Hospital (PCH) would begin treating its first patients in late October 2016. \"Perth Children's Hospital will be a world-class paediatric centre with modern facilities, advanced technologies and new ways of working, which will bring enormous benefits for patients, families and staff,\" Mr Barnett said. \"We made a decision very early in our first term of Government that we would build a new children's hospital to serve the community well into the next century.\u00a0 It was always a priority over the construction of a new stadium. \"This is a direct benefit of the State's period of economic prosperity after changes in 2010 to 11 Iron Ore State Agreements held by BHP Billiton and Rio Tinto allowed the Liberal National Government to allocate $350 million towards PCH. \"It is planned for the first outpatient clinics to start on October 24, followed by the start of selected day surgery from November 7, with the final patient move from Princess Margaret Hospital for Children planned for Sunday, November 20. \"This is an exciting milestone which highlights the State Government's clear commitment to improve health outcomes for our children, now and into the future. \"Although commissioning such an advanced hospital is a challenging task, the Government has delivered many new hospitals in recent years and that considerable experience is being used to ensure the transition is as smooth as possible.\" Health Minister John Day said it was important to schedule key commissioning target dates. \"This ensures appropriate and accurate planning for the transition period because all equipment, systems and treatment processes must be repeatedly tested before we begin treating our young patients at the new facility,\" Mr Day said.  \"The hospital opening will be a tremendous achievement, with PCH forming the centre of a network of new and expanded facilities for children and families that we have built across the State.  \"We will not compromise safety, and the hospital will only accept patients on the planned dates if construction and commissioning activities are complete and the move can be done safely.\" The Premier said he was pleased to see the significant progress in construction which had meant commissioning and moving plans could be finalised. \"It has been a very complex project, however the result is a world-class facility all West Australians can be proud of,\" he said. \"The hospital is on track for building handover in August, however many areas such as intensive care and operating theatres are already being accessed by PCH commissioning team staff.\" Princess Margaret Hospital for Children will remain open as the State's only dedicated paediatric hospital and major trauma centre until the final patient move to PCH. Premier's office - 6552 5000 Health Minister's office - 6552 6200",
-    "title": [
-      "PCH plans to treat first patients in October"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "APPROXIMATE",
-        "Roebuck WA 6725, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            122.5046801,
-            -18.1721414
+            116.165723,
+            -31.9014641
           ]
         }
       ],
-      [
-        "APPROXIMATE",
-        "Chinatown, Haymarket NSW 2000, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            151.2047802,
-            -33.8775513
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Broome WA 6725, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            122.2443272,
-            -17.9512214
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Dampier WA 6713, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            116.7084604,
-            -20.6637988
-          ]
-        }
-      ],
-      [
-        "GEOMETRIC_CENTER",
-        "Shire Rd, Tooleybuc NSW 2736, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            143.3555781,
-            -35.0263652
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Carnarvon WA 6701, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            113.6570204,
-            -24.8826946
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Western Flora Caravan Park, Brand Hwy, Eneabba WA 6518, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            115.216798,
-            -29.62566
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Kimberley TAS 7304, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            146.4917019,
-            -41.3985613
-          ]
-        }
-      ]
-    ],
-    "statement": "Chinatown in Broome will undergo a major revitalisation following a $10 million investment made possible by the State Government's Royalties for Regions program. Regional Development and Lands Minister Terry Redman said the Liberal National Government investment would have a significant and lasting impact on the traditional business, entertainment and retail centre of Broome. The project consists of improvements such as major upgrades to Carnarvon Street and Dampier Terrace, as well as feasibility and technical studies for projects including a cultural centre, the extension of Gray Street and the reconnection of Chinatown to Roebuck Bay. \"Chinatown has a rich multicultural and industrial history which presents unique opportunities for growth of the town centre through projects that will boost the economic potential for local businesses and the retail and tourism sectors,\" Mr Redman said. \"The Shire of Broome and LandCorp will deliver the Chinatown Revitalisation project in partnership with the Kimberley Development Commission, building on this vibrant precinct that highlights its continuing strong Aboriginal cultural heritage and pearling history. \"This is another example of how Royalties for Regions provides substantial investment to regional communities, ensuring they continue to thrive socially and economically.\" The project will receive extra investment including $2 million from the Shire of Broome and $600,000 from the Tourism Demand Driver Infrastructure program, a Federal Government-funded initiative managed by Tourism Western Australia. The Minister said the funding would enable the partnership to deliver on preparatory work undertaken over the last few years, building on from the shire's Chinatown Development Strategy and the Broome Growth Plan. \"Revitalising Chinatown is important for the town's future and we will now be able to go ahead and reinvigorate the traditional heart of Broome, delivering short, medium and long-term benefits to the local economy,\" he said. Minister's office - 6552 6700",
-    "title": [
-      "Chinatown in Broome set for revitalisation"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "APPROXIMATE",
-        "Boddington WA 6390, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            116.4745961,
-            -32.8024431
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Byford WA 6122, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            116.0081156,
-            -32.2217513
-          ]
-        }
-      ],
-      [
-        "ROOFTOP",
-        "Port Bouvard Bridge, Old Coast Rd, Dawesville WA, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            115.6402618,
-            -32.6059939
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Peel NSW 2795, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            149.6360043,
-            -33.3125703
-          ]
-        }
-      ]
-    ],
-    "statement": "Regional Development Minister Terry Redman today announced the latest grant recipients of the Peel region's Community Chest Fund, made possible by the Liberal National Government's Royalties for Regions program. Mr Redman said a total of $500,000 in grants had been awarded to 20 community groups, public and not-for-profit organisations for projects to improve and develop infrastructure and services in the regions. \"The Community Chest Fund provides voluntary organisations, educational institutions and community organisations with grants of up to $50,000 to support local projects,\" he said. \"Projects supported through the Peel Community Chest Fund in this round include shade protection and fencing at Waroona Bowling and Social Club, a community garden in Byford, the purchase of training yachts and a floating pontoon for disability sailing at Port Bouvard and the extension of a walking trail in Boddington. \"These projects will help attract investment, increase job opportunities and improve the quality of life for communities in the Peel region. \"The fund supports region-specific priorities that are driven by local communities to assist the development of infrastructure, services and community projects that help build vibrant regions with strong economies. \"Hundreds of diverse projects and organisations across regional WA have significantly benefited from the fund in recent years.\" Western Australia's nine regional development commissions oversee the projects, each being allocated an equal share from which to provide the Community Chest Fund grants. The Liberal National Government, through the Royalties for Regions program, has invested $10 million into the Community Chest Fund over the next four years. \n    Minister's office - 6552 6700 \n    \n   ",
-    "title": [
-      "Community chest funding for Peel region"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "APPROXIMATE",
-        "Boulder WA 6432, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            121.4883572,
-            -30.7819844
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Esperance WA 6450, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            121.8932484,
-            -33.8594128
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Goldfields QLD 4380, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            151.7332817,
-            -28.4494355
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Kalgoorlie WA, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            121.4748606,
-            -30.7470074
-          ]
-        }
-      ],
-      [
-        "GEOMETRIC_CENTER",
-        "Barbara St, Fairfield NSW 2165, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            150.9532474,
-            -33.8722344
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Killarney QLD 4373, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            152.2956263,
-            -28.3328328
-          ]
-        }
-      ]
-    ],
-    "statement": "The Goldfields-Esperance region is set to benefit from the State Government's Royalties for Regions program for three new projects, receiving a $20.58 million investment through the Goldfields-Esperance Revitalisation Fund. Regional Development Minster Terry Redman said the Kalgoorlie Central Hannan Precinct revitalisation project, Goldfields Rehabilitation Services and the Killarney Retirement Living project would all receive funding under the fund. \"The fund is helping build a social and infrastructure platform for the region's economic development and will drive growth and new investment,\" Mr Redman said. \"Royalties for Regions is investing in initiatives that deliver tangible benefits to regional communities.\" The Kalgoorlie Central Hannan Precinct revitalisation will receive $8 million in Liberal National Government funding for the revitalisation of St Barbara Square area and Cassidy Street.  Goldfields Rehabilitation Services will use their $2.78 million funding boost for a drug and alcohol detoxification and rehabilitation program and the refurbishment of the existing facility and the construction of a new building in Kalgoorlie-Boulder. The Killarney Retirement Living project will receive $9.8 million for the construction of a 45-unit independent living accommodation for pensioners living in the Goldfields-Esperance region.\u00a0  The Goldfields-Esperance Revitalisation Fund is a Royalties for Regions initiative that invests in priority projects to support economic and social development in the region.  \"I would like to congratulate the Goldfields-Esperance Development Commission for their hard work to ensure the projects are robust and will deliver significant benefits to the region,\" the Minister said. Minister's office - 6552 6700",
-    "title": [
-      "Goldfields to benefit from $20.58 million investment"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "APPROXIMATE",
-        "Goldfields QLD 4380, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            151.7332817,
-            -28.4494355
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Esperance WA 6450, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            121.8932484,
-            -33.8594128
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Kalgoorlie WA, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            121.4748606,
-            -30.7470074
-          ]
-        }
-      ]
-    ],
-    "statement": "International medical graduates in the Goldfields region will continue to have access to high-quality education thanks to the State Government's Royalties for Regions program. The Forward to Fellowship program, facilitated by Rural Health West, provides international medical graduates with personal, professional and training support to help their integration into Australian medical general practice. Regional Development Minister Terry Redman said the Liberal National Government's $532,100 investment would support the growing number of new international medical graduates practising in the area by offering further education in the region. \"The Forward to Fellowship program helps these graduates form partnerships with other general practitioners and supports doctors and their families by encouraging them to stay in the Goldfields-Esperance region after completing their Fellowship qualifications,\" Mr Redman said. \"The program has already resulted in a significant reduction in presentations at the Kalgoorlie Health Campus Emergency Department and is enabling the community to have easier access to general practitioners.\" Health Minister John Day said the program was a vital collaboration between organisations committed to delivering high-quality continuous education. \"This is about providing a stable and sustainable regional medical workforce,\" Mr Day said. \"With research showing 55 per cent of our rural and remote medical professionals have obtained their qualifications overseas, helping to provide a pathway for them to work here is making a big difference in regional Western Australia. \"Seventeen international medical graduates were in the program's initial cohort, with three already achieving Fellowships.\" Regional Development Minister's office - 6552 6700  Health Minister's office - 6552 6200 ",
-    "title": [
-      "Goldfields health benefits from graduate boost"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "GEOMETRIC_CENTER",
-        "State Cir, Canberra ACT, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            149.1295201,
-            -35.3082562
-          ]
-        }
-      ]
-    ],
-    "statement": "Water Minister Mia Davies today welcomed the appointment of Ross Holt to the board of the Water Corporation. As former chief executive officer of the WA Land Authority (LandCorp) and Assistant Under Treasurer, Mr Holt brings extensive planning, development and finance experience to the board Mr Holt is currently deputy chancellor of Murdoch University, chairman of the Forest Products Commission, non-executive chairman of Ralph Beattie Bosworth Pty Ltd and non-executive director of NS Projects.\u00a0  \"As the Minister for Water, I am looking forward to working with Mr Holt and all board members at the corporation under the leadership of chairwoman Eva Skira,\" Ms Davies said. \"Mr Holt joins recently appointed board members David Rowe and Nicole Lockwood.\" The Minister said the board played a critical role leading the corporation. \"The board is working hard to ensure the corporation continues to provide the best value service across our vast State for more than two million West Australians,\" she said. Minister's office - 6552 5500",
-    "title": [
-      "New board member for the Water Corporation"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "APPROXIMATE",
-        "Broome WA 6725, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            122.2443272,
-            -17.9512214
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Kimberley TAS 7304, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            146.4917019,
-            -41.3985613
-          ]
-        }
-      ]
-    ],
-    "statement": "The Liberal National Government today awarded $145,000 to organisations in the Kimberley to conduct suicide prevention training. Mental Health Minister Andrea Mitchell said the grants would specifically target at-risk groups, with $93,000 allocated to train Aboriginal people to strengthen their communities and help reduce the incidence of suicide. \"These grants will fund intensive training courses that will give participants an understanding of mental illness, an insight into the thinking of sufferers and knowledge on how to provide immediate help,\" Ms Mitchell said. \"It is important to train people to support family, friends and community members who are experiencing a mental health crisis or are having suicidal thoughts.  \"These courses aim to teach participants to identify when someone needs help and to know what to do immediately to keep that person safe.\" Broome Regional Aboriginal Medical Service will receive $11,940 to deliver Applied Suicide Intervention Skills Training to workers and caregivers, and Opening Closets training to members of the LGBTI community. The grants are part of the State Government's $25.9 million suicide prevention strategy, Suicide Prevention 2020: Together we can save lives, which aims to halve the number of suicides over 10 years.  The Minister said further grants for suicide prevention training across Western Australia were being finalised and would be announced shortly. Minister's office - 6552 5400",
-    "title": [
-      "Grants for Kimberley suicide prevention training"
-    ]
-  },
-  {
-    "locations": [],
-    "statement": "Primary school students at hundreds of public schools across Western Australia are set to benefit from thousands of new tablets, laptops, desktop computers and accessories. Education Minister Peter Collier today announced 572 schools are receiving funding to purchase new hardware and software under the Liberal National Government's $20 million Primary Device Program 2016-17. \"There is a growing evidence which shows the importance of developing students' digital literacy,\" Mr Collier said. \"The recent Organisation for Economic Co-operation and Development (OECD) report, 'Students, Computers and Learning: Making the Connection', makes the case for technology in schools so children can learn the skills they need to succeed in the future.\"  The Minister said the technology would be integrated carefully into learning programs. \"When part of a balanced education program, IT devices can be powerful tools for helping students improve their literacy and numeracy skills,\" he said. Schools are investing in new devices and accessories such as charging stations, trolleys, power boards and monitors, with school funds matched dollar-for-dollar by the State Government up to a total of $20 million. \"I am delighted with the success of this program, which is in addition to more than $30 million in ICT upgrades in Western Australian schools,\" Mr Collier said. Minister's office - 6552 6300",
-    "title": [
-      "Primary students get tech-savvy for learning"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "GEOMETRIC_CENTER",
-        "Shire Rd, Tooleybuc NSW 2736, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            143.3555781,
-            -35.0263652
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Esperance WA 6450, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            121.8932484,
-            -33.8594128
-          ]
-        }
-      ]
-    ],
-    "statement": "People living and working in the regional communities of Salmon Gums and Grass Patch, in the Shire of Esperance, now have greater access to mobile telephone coverage and high-speed wireless broadband, as part of an $85 million investment through the State Government's Royalties for Regions program. Commerce Minister Michael Mischin said improving connectivity was a vital step forward for social and economic development in regional areas. \"The new towers will expand the connectivity along the Coolgardie-Esperance Highway and further into the agricultural heartland of the Shire of Esperance,\" Mr Mischin said. \"Salmon Gums and Grass Patch are important grain receiver points and participate in agricultural research trials aimed at improving crop production. These towers will ensure farmers and local businesses have access to reliable mobile voice and data services. \u00a0 \"The new connectivity will make it easier for families to keep in touch, ensure motorists feel safer and better equipped, and improve emergency service response times.\" Regional Development Minister Terry Redman said it was vital mobile voice and data services were expanded in the regions to improve Government service delivery and support the growth and prosperity of regional businesses and communities. \"The Liberal National Government's investment in mobile telecommunications infrastructure is helping to bridge the digital divide for people living and working in our regional areas,\" Mr Redman said. \"Research has shown that people living in the regions are more willing to embrace and seek new technologies and this infrastructure enables them to do so.\u00a0 Royalties for Regions initiatives such as this contribute to a better quality of life and a brighter future for everyone in our regions.\"\u00a0  Commerce Minister's office - 6552 5600 Regional Development Minister's office - 6552 6700",
-    "title": [
-      "Towns in the Shire of Esperance get connected"
-    ]
-  },
-  {
-    "locations": [],
-    "statement": "Forestry Minister Mia Davies today welcomed the appointment of Stuart West as general manager of the Forest Products Commission (FPC), who will commence in the role on June 20, 2016.\u00a0  \"Stuart brings with him a wealth of government forestry experience, having held the executive responsibility for the forestry portfolio in the South Australian government over the past 12 years,\" Ms Davies said.\u00a0  \"He has a genuine commitment to the Australian forestry industry, with broad experience in national and international matters, and I look forward to working with him to advance the State's forest and wood products industry.\" Mr West said he was honoured to have the opportunity to work with stakeholders to foster new opportunities and encourage new investment to ensure the long-term viability and sustainability of forestry in Western Australia.  The Minister said it was a positive time for the Western Australian forestry, both with Mr West's appointment and the Liberal National Government working directly with the industry on long-term plans through the recently established Forest Industry Working Group, chaired by Parliamentary Secretary Vince Catania. Ms Davies thanked Gavin Butcher, the acting general manager, for leading the commission while the recruitment process was under way.  Minister's office - 6552 5500",
-    "title": [
-      "New GM for Forest Products Commission"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "APPROXIMATE",
-        "Savannah QLD 4816, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            141.5481287,
-            -19.2428761
-          ]
-        }
-      ]
-    ],
-    "statement": "Mines and Petroleum Minister Sean L'Estrange today announced the Liberal National Government's commitment of $5.14 million in exploration funding for Round 13 of the highly competitive Co-funded Drilling Program under the Exploration Incentive Scheme (EIS). The Co-funded Drilling Program refunds up to 50 per cent of direct drilling costs with caps of $150,000 for a multi-hole project, $200,000 for a single deep hole and $30,000 for a prospector's project.  A total of 48 companies and prospectors successfully applied to receive the co-funding for exploration drilling projects. The Co-funded Drilling Program is in its eighth year and continues to help explorers make exciting new discoveries. \"I am pleased we have allocated $30 million to the EIS out to 2020,\" Mr L'Estrange said. \"The Co-funded Drilling Program provides incentives to drill in under-explored areas and is the key to the continued economic prosperity of the State's resources industry. \"This program has already been successful with commercially promising and scientifically interesting projects. \"The Nova nickel project is the stand-out discovery of the past few years having used State Government pre-competitive data as well as co-funding support.\u00a0 In addition, there have been more than 20 other mineral discoveries that can be credited to the drilling program.\" Recent finds include nickel by Panoramic Resources at its Savannah North project, zinc at Millennium by Encounter Resources, and gold at Alloy Resources' Horse Well project and at Gold Road Resources' Gruyere discovery in the Yamarna greenstone belt. The Minister said the Government's decision to offer $5.14 million in co-funding in Round 13 showed its continued commitment to the long-term development of Western Australia's resources sector.  Round 13 successful applicants are available at    Minister's office - 6552 6900",
-    "title": [
-      "Incentive scheme injects $5m for mines exploration"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "APPROXIMATE",
-        "Guildford NSW 2161, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            150.9866547,
-            -33.85416860000001
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Swan River, Perth WA, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            115.9115735,
-            -31.8920288
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Meadow WA 6532, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            114.6099608,
-            -26.8038619
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Victoria, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            144.7851531,
-            -37.4713077
-          ]
-        }
-      ]
-    ],
-    "statement": "The Water Corporation will soon begin work to refurbish wastewater pipes in Guildford to extend the life of the important infrastructure by at least 50 years. Water Minister Mia Davies said the $1.3 million Liberal National Government project formed part of an ongoing program to reline and refurbish wastewater pipes across the State.  \"About 1.6 kilometres of wastewater pipes along Meadow, Victoria and Swan streets will be refurbished over the next two months,\" Ms Davies said. The Minister said the corporation used trenchless technology to reline wastewater pipes where possible.\u00a0 This technology avoided the need for extensive excavation to access the wastewater pipes, which kept disruption to the community and road users to a minimum. \"Residents may notice an increase in activity along the pipeline route, however traffic management will be in place at all times and disruption will be kept to a minimum,\" she said.  \"I want to thank the residents in advance for their patience while the corporation carries out this work.\" The corporation will work closely with local residents to keep them informed before work begins in their area. For more information about the project, visit    Minister's office - 6552 5500",
-    "title": [
-      "Improving wastewater pipes in Guildford"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "APPROXIMATE",
-        "Esperance WA 6450, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            121.8932484,
-            -33.8594128
-          ]
-        }
-      ]
-    ],
-    "statement": "Regional Development Minister Terry Redman today announced the Esperance Aged Care Facility was set for major improvements with a $3 million State Government Royalties for Regions investment as part of the Goldfields-Esperance Revitalisation Fund. \"This Liberal National Government project will include the construction of a modern, new 34-bed complex consisting of 17 general residential beds and 17 secure residential beds for people living with dementia.\u00a0 At project completion, there will be 114 beds available at the facility,\" Mr Redman said. \"The expanded facility will address current and future demand for residential care in the Esperance region.\" The Minister said the expansion of the Esperance Aged Care Facility supported the continued development of age-friendly communities in regional Western Australia. \"Royalties for Regions is aimed at retaining and growing population in the regions, and by investing in appropriate health services and infrastructure, we are helping to create sustainable regional communities,\" he said. \"Royalties for Regions is playing a vital role in supporting our regions and I look forward to seeing the completion of the facility.\" The Goldfields-Esperance Revitalisation Fund is a Royalties for Regions initiative that invests in priority projects to enable economic and social development in the region Minister's office - 6552 6700",
-    "title": [
-      "Expansion for Esperance Aged Care Facility"
-    ]
-  },
-  {
-    "locations": [
       [
         "APPROXIMATE",
         "Western Australia, Australia",
@@ -623,9 +336,197 @@
         }
       ]
     ],
-    "statement": "The Liberal National Government has committed $6 million to continue the work of the Minerals Research Institute of Western Australia (MRIWA) over the next three years.  Mines and Petroleum Minister Sean L'Estrange said the funding, announced in the 2016-17 Budget, recognised the great contribution the institute made to the State's resources sector. \"Exploration targets are now deeper and harder to identify and test, and the associated data processing is becoming more complex, so the fostering of research, technological innovation and new talent through the MRIWA is important to the resources sector,\" he said.  Mr L'Estrange said since the institute was established by the State Government in February 2014, it had committed $7.1 million to minerals research, mainly through funding research institutions in WA.  \"MRIWA's portfolio includes 21 approved research projects and nine PhD scholarships, valued at $18.1 million, including joint funding with other parties,\" he said. \"However, we're not just talking about projects.\u00a0 Through its education program, the institute is investing in the future of WA by fostering the new engineers, geologists and other scientific professionals we need to remain one of the world's top mining jurisdictions. \"The institute is contributing to a more active relationship between industry companies and the research community.\" The success of the program was recently confirmed through an independent review, with the aggregated benefit estimated at $90.4 million.\u00a0 This represents a significant return to the Government, outweighing the entire funding cost of the program since 1990. Treasurer Mike Nahan said by promoting innovation, education and capacity development, MRIWA was helping to ensure the State's minerals industry remained an engine of economic growth. \"MRIWA invests funds in research projects which seek to advance the State's minerals industry, contribute to future innovation and promote projects which will help stimulate a globally competitive minerals industry in WA,\" Dr Nahan said.  Mines and Petroleum Minister's office - 6552 6900 Treasurer's office - 6552 5700",
+    "statement": "Sport and Recreation Minister Mia Davies has congratulated the best of the bowls community during the annual Bowls WA Awards.\u00a0\u00a0  \"While bowls is one of the most popular, and in many cases the most competitive sport played by hundreds of thousands of people of all ages throughout Australia, bowls is far more than just a sport,\" Ms Davies said. \"To so many who take part, from within our largest cities to our most remote country regions, bowls is a way of life; a means of socialising and community building. \"There's no more valuable asset to a community than having people from a very young age through to the elderly being together enjoying competitive and social play, side by side.\" The evening awards featured the induction into the Bowls WA Hall of Fame of two Western Australian champion bowlers, Lee Poletti and Graeme Wishart. Bowler of the Year Awards for an outstanding season went to Noelene Abe of Corrigin, who received the Connie Hicks Brooch; and the Rosenthal Medal went to Tom Mitchell from Manning.  Other award winners were Robert Gibbons of the Gosnells Bowling Club (Volunteer of the Year); Ken Perks from the Morley Bowling Club (Coach of the Year); Tammin and Albany (Small Country Club and Country Club of the Year) and their metropolitan counterparts in Mundaring and Sorrento. \"Across the State, there are nearly 16,000 members of all ages who belong to 207 bowling clubs, all enjoying a sport which is keeping them active and connected,\" Ms Davies said. Bowls receives $150,000 annually in Organisational Sustainability Program funding from the Liberal National Government through the Department of Sport and Recreation. Since 2008, bowling clubs across WA have received more than $14 million in facilities funding through the Community Sporting and Recreation Facilities Fund.\u00a0  Minister's office - 6552 5500",
     "title": [
-      "Our State Budget 2016-17: Securing our economic future - $6 million in Budget for more minerals research"
+      "Bowls WA honours best at awards"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "APPROXIMATE",
+        "Albany WA 6330, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            117.8847286,
+            -35.0238227
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Mandurah WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.7427457,
+            -32.5368093
+          ]
+        }
+      ],
+      [
+        "GEOMETRIC_CENTER",
+        "Elizabeth St, East Cannington WA 6107, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.9641807,
+            -32.0063849
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Geraldton WA 6530, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            114.6096326,
+            -28.7732192
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Port Hedland WA 6721, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            118.5752577,
+            -20.3116266
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Kalgoorlie WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.4748606,
+            -30.7470074
+          ]
+        }
+      ],
+      [
+        "GEOMETRIC_CENTER",
+        "State St, Victoria Park WA 6100, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.8978914,
+            -31.9810466
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Perth WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.8570471,
+            -31.9535132
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Western Australia, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.6283098,
+            -27.6728168
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Western Australia, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.6283098,
+            -27.6728168
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Fremantle WA 6160, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.7471797,
+            -32.0560399
+          ]
+        }
+      ]
+    ],
+    "statement": "Premier Colin Barnett has congratulated Perth businessman and community leader Adrian Fini OAM on being named the 2016 Western Australian of the Year. \"This prestigious award is well deserved by Adrian, who makes a significant contribution to the Western Australian community through his roles as chairman of the Art Gallery of Western Australia Foundation and on the boards of The University of Western Australia Business School and Perth International Arts Festival,\" Mr Barnett said. \"Through his property development businesses, Adrian has also helped to shape a new, contemporary Perth city.\u00a0 His company's work on the restoration of the State Buildings was exemplary.\" Mr Fini received the honour at a gala Western Australian of the Year Awards ceremony held tonight at Crown Perth.  The Premier also congratulated other individual winners including Rishelle Hume, who received the Aboriginal Award; Warwick Hemsley - Arts and Culture Award; Dr John van Bockxmeer - Community Award; Professor Arlene Chan - Professions Award; Caitlin Bassett and Nathan Fyfe as joint winners of the Sport Award; and Ashlee Harrison - Youth Award. Speaking at the event, organised by Celebrate WA, Mr Barnett said WA Day was not only about looking forward, but also recognising Aboriginal and subsequent settlement of WA and the enormous contribution migrants had made to the State. \"WA's history dates back more than 40,000 years, with the first inhabitants of the South-West being the Noongar people,\" he said. \"Recently, State Parliament passed the Noongar (Koorah, Nitja, Boordahwan) (Past, Present, Future) Recognition Bill 2015, which formally recognises the Noongar people as the traditional owners of the land in the South-West.  \"It is significant that the Bill will be proclaimed on June 6, 2016, which this year will be WA Day. \"This is a historic occasion and an achievement of which the Liberal National Government is proud.\u00a0 It embodies the spirit of the WA Day holiday.\" The Premier encouraged West Australians to enjoy some of the major events being held across the State over the long weekend.\u00a0 These included a WA Day Festival at Elizabeth Quay on Monday, featuring free family activities such as WA's best burger cook-off and workshops with Western Australian sport stars. Family activities would also be held at Esplanade Park in Fremantle and at the Western Australian Museum in Albany, Geraldton and Kalgoorlie-Boulder.\u00a0 Port Hedland and Mandurah were also hosting festivals. Premier's office - 6552 5000",
+    "title": [
+      "Adrian Fini awarded Western Australian of the Year"
+    ]
+  },
+  {
+    "locations": [],
+    "statement": "State Cabinet records just released from 30 years ago provide a fascinating insight into several significant decisions that helped shape Western Australia. Culture and the Arts Minister John Day said the 1985 records highlighted a memorable and turbulent time in WA. \"While Cabinet approved the drafting of legislation to start the Burswood Island casino and gave the green light to build the Hillarys Boat Harbour, there are several perennial issues mentioned which we are still grappling with,\" Mr Day said. \"For instance, Cabinet also moved to reform sexual assault laws, as well as establishing a task force to inquire into domestic violence.\u00a0  \"Approval was given to release an interim report into retail trading hours and for a Bill requiring Members of the Western Australian Parliament to publicly disclose financial interests.\"  Other decisions included the electrification of the suburban rail system at an approximate cost of $146 million; the drafting of legislation to establish the Western Australian Planning Commission; a study and land acquisition for the Dawesville Cut; in-principle agreement for the creation of the Marmion Marine Park; and the consideration of a national park to protect the Bungle Bungles. The Western Australian Exim Corporation Limited was established and tasked with targeting Middle Eastern and Asian export markets and, in a sign of things to come, approval was given to install 2,600 computers in primary and secondary schools. Minister's office - 6552 6200",
+    "title": [
+      "State Records Office releases snapshot of 1985"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "GEOMETRIC_CENTER",
+        "Elizabeth St, East Cannington WA 6107, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.9641807,
+            -32.0063849
+          ]
+        }
+      ],
+      [
+        "GEOMETRIC_CENTER",
+        "Florence Rd, Nedlands WA 6009, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.8039216,
+            -31.98368749999999
+          ]
+        }
+      ],
+      [
+        "GEOMETRIC_CENTER",
+        "Elizabeth St, East Cannington WA 6107, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.9641807,
+            -32.0063849
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Western Australia, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.6283098,
+            -27.6728168
+          ]
+        }
+      ]
+    ],
+    "statement": "More than 15,000 people are expected to visit Perth's newest major tourism precinct Elizabeth Quay today to enjoy a range of free family entertainment in celebration of WA Day. Planning Minister Donna Faragher said the precinct's public open spaces and facilities, views across the Swan River and central business district location provided a world-class venue for major social and cultural events. \"Elizabeth Quay continues to grow as Western Australia's premier tourism development and as a highly sought-after waterfront community and premier events venue,\" Mrs Faragher said. \"The large number of visitors to the quay today and over this long weekend will boost total visitor numbers to date to more than two million people since the precinct opened in January this year.\" The Minister said the WA Day festivities at Elizabeth Quay were one of the largest events held at the quay this year and followed the highly successful Perth International Arts Festival, Fringe World Festival and the Night Noodle Markets. Future events at Elizabeth Quay will include the Swan Festival of Lights and the World Masters Athletics Championships welcoming ceremony, featuring thousands of athletes from around the globe.  Existing food and beverage offerings will also be expanded, with Gusto Gelato ready to host their official opening next Friday and Isle of Voyage set to open their doors soon at the Florence Hummerston Kiosk.\u00a0  \"In the lead-up to summer, there will be a raft of activities at Elizabeth Quay in terms of major public and community events, supported by new and exciting food and beverage outlets opening up in the precinct,\" Mrs Faragher said. \"Elizabeth Quay's city riverside location, its flexibility as an event and recreation space, and access to public transport is certainly contributing to its success as an emerging major tourism attraction for Western Australia.\" Minister's office - 6552 5300",
+    "title": [
+      "Elizabeth Quay hosts WA Day celebrations"
     ]
   },
   {
@@ -643,12 +544,12 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "Gage Rd, Gagebrook TAS 7030, Australia",
+        "Gage St, Two Rocks WA 6037, Australia",
         {
           "type": "Point",
           "coordinates": [
-            147.2752829,
-            -42.7507793
+            115.5933047,
+            -31.5025996
           ]
         }
       ],
@@ -665,23 +566,23 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "Gage Rd, Gagebrook TAS 7030, Australia",
+        "Gage St, Two Rocks WA 6037, Australia",
         {
           "type": "Point",
           "coordinates": [
-            147.2752829,
-            -42.7507793
+            115.5933047,
+            -31.5025996
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Western, VIC, Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            142.3613378,
-            -38.0838515
+            121.6283098,
+            -27.6728168
           ]
         }
       ]
@@ -695,12 +596,12 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
@@ -774,12 +675,12 @@
     "locations": [
       [
         "GEOMETRIC_CENTER",
-        "Canada St, Lake Cargelligo NSW 2672, Australia",
+        "Canada St, Dianella WA 6059, Australia",
         {
           "type": "Point",
           "coordinates": [
-            146.3739716,
-            -33.2983593
+            115.8802083,
+            -31.8932461
           ]
         }
       ],
@@ -796,56 +697,56 @@
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
       [
         "GEOMETRIC_CENTER",
-        "China St, Mundingburra QLD 4812, Australia",
+        "China Ln, Iluka WA 6028, Australia",
         {
           "type": "Point",
           "coordinates": [
-            146.7918239,
-            -19.2963536
+            115.7311076,
+            -31.7338382
           ]
         }
       ],
       [
-        "GEOMETRIC_CENTER",
-        "Japan St, Warrnambool VIC 3280, Australia",
+        "ROOFTOP",
+        "Japan House, Bentley WA 6102, Australia",
         {
           "type": "Point",
           "coordinates": [
-            142.4912182,
-            -38.3858656
+            115.8889482,
+            -32.0114801
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ]
@@ -859,12 +760,12 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Kimberley TAS 7304, Australia",
+        "Kimberley, WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            146.4917019,
-            -41.3985613
+            126.6093926,
+            -17.8480073
           ]
         }
       ]
@@ -908,23 +809,23 @@
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
       [
-        "GEOMETRIC_CENTER",
-        "Great Britain St, Herne Hill VIC 3218, Australia",
+        "APPROXIMATE",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            144.3216792,
-            -38.1367871
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
@@ -941,23 +842,23 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "London Circuit, Canberra ACT 2601, Australia",
+        "London St, Perth WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            149.1285141,
-            -35.2844538
+            115.8442214,
+            -31.9166057
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ]
@@ -971,12 +872,12 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Kimberley TAS 7304, Australia",
+        "Kimberley, WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            146.4917019,
-            -41.3985613
+            126.6093926,
+            -17.8480073
           ]
         }
       ]
@@ -1003,13 +904,13 @@
   {
     "locations": [
       [
-        "GEOMETRIC_CENTER",
-        "S Perth Esplanade, South Perth WA 6151, Australia",
+        "APPROXIMATE",
+        "Perth WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            115.8510126,
-            -31.9698491
+            115.8570471,
+            -31.9535132
           ]
         }
       ]
@@ -1040,24 +941,24 @@
         }
       ],
       [
-        "APPROXIMATE",
-        "Newmarket QLD, Australia",
+        "GEOMETRIC_CENTER",
+        "Newmarket Parade, Butler WA 6036, Australia",
         {
           "type": "Point",
           "coordinates": [
-            153.0071085,
-            -27.4365907
+            115.6904989,
+            -31.633149
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Hamilton VIC 3300, Australia",
+        "Hamilton, Worsley WA 6225, Australia",
         {
           "type": "Point",
           "coordinates": [
-            142.021946,
-            -37.7444183
+            116.0670802,
+            -33.2343399
           ]
         }
       ],
@@ -1081,13 +982,13 @@
   {
     "locations": [
       [
-        "GEOMETRIC_CENTER",
-        "Onslow Pl, Sylvania NSW 2224, Australia",
+        "APPROXIMATE",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            151.1024557,
-            -34.0208809
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
@@ -1123,12 +1024,12 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "State Cir, Canberra ACT, Australia",
+        "State St, Victoria Park WA 6100, Australia",
         {
           "type": "Point",
           "coordinates": [
-            149.1295201,
-            -35.3082562
+            115.8978914,
+            -31.9810466
           ]
         }
       ],
@@ -1145,12 +1046,12 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "University W Dr, Brinkin NT 0810, Australia",
+        "S Western Hwy, Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            130.8667531,
-            -12.3707906
+            115.684619,
+            -33.3768315
           ]
         }
       ],
@@ -1219,12 +1120,12 @@
       ],
       [
         "APPROXIMATE",
-        "Lansdale, Tottenham NSW 2873, Australia",
+        "Landsdale WA 6065, Australia",
         {
           "type": "Point",
           "coordinates": [
-            147.180804,
-            -32.232572
+            115.8670802,
+            -31.8037451
           ]
         }
       ],
@@ -1260,12 +1161,12 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ]
@@ -1279,12 +1180,12 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Western, VIC, Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            142.3613378,
-            -38.0838515
+            121.6283098,
+            -27.6728168
           ]
         }
       ]
@@ -1298,78 +1199,78 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Kings Park NSW 2148, Australia",
+        "Kings Park WA 6005, Australia",
         {
           "type": "Point",
           "coordinates": [
-            150.9157955,
-            -33.7493763
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Canberra ACT 2601, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            149.1286843,
-            -35.2819998
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Melbourne VIC, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            144.96328,
-            -37.814107
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Sydney NSW, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            151.2069902,
-            -33.8674869
+            115.8436594,
+            -31.9600578
           ]
         }
       ],
       [
         "GEOMETRIC_CENTER",
-        "Kings Rd, Adelaide SA, Australia",
+        "Canberra Cl, Port Kennedy WA 6172, Australia",
         {
           "type": "Point",
           "coordinates": [
-            138.6212864,
-            -34.7761343
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Tasmania, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            146.6284905,
-            -41.3650419
+            115.7541411,
+            -32.3659008
           ]
         }
       ],
       [
         "GEOMETRIC_CENTER",
-        "Port Rd, Adelaide SA, Australia",
+        "Melbourne St, Moora WA 6510, Australia",
         {
           "type": "Point",
           "coordinates": [
-            138.5490791,
-            -34.8897546
+            116.0103773,
+            -30.6368685
+          ]
+        }
+      ],
+      [
+        "GEOMETRIC_CENTER",
+        "Sydney Rd, Gnangara WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.8657247,
+            -31.7756953
+          ]
+        }
+      ],
+      [
+        "GEOMETRIC_CENTER",
+        "Kingsway, Perth WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.8499425,
+            -31.8132177
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Tas, Parmelia WA 6167, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.8243191,
+            -32.2550663
+          ]
+        }
+      ],
+      [
+        "GEOMETRIC_CENTER",
+        "Port Dr, Western Australia, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            122.211324,
+            -17.979774
           ]
         }
       ]
@@ -1393,13 +1294,13 @@
         }
       ],
       [
-        "APPROXIMATE",
-        "Southern, TAS, Australia",
+        "GEOMETRIC_CENTER",
+        "Southern Dr, Busselton WA 6280, Australia",
         {
           "type": "Point",
           "coordinates": [
-            146.9953167,
-            -42.7286837
+            115.3479751,
+            -33.6572382
           ]
         }
       ],
@@ -1415,13 +1316,13 @@
         }
       ],
       [
-        "APPROXIMATE",
-        "Haven VIC 3401, Australia",
+        "GEOMETRIC_CENTER",
+        "The Haven, Canning Vale WA 6155, Australia",
         {
           "type": "Point",
           "coordinates": [
-            142.1983427,
-            -36.7496932
+            115.9120396,
+            -32.0895384
           ]
         }
       ],
@@ -1468,12 +1369,12 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "Creek Rd, Brisbane QLD, Australia",
+        "Creek St, Katanning WA 6317, Australia",
         {
           "type": "Point",
           "coordinates": [
-            153.1007409,
-            -27.4988444
+            117.5650648,
+            -33.7007366
           ]
         }
       ],
@@ -1512,23 +1413,23 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "Halls Rd, Trundle NSW 2875, Australia",
+        "Halls Rd, Capel WA 6271, Australia",
         {
           "type": "Point",
           "coordinates": [
-            147.5931312,
-            -32.8349354
+            115.5562367,
+            -33.5378861
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Kimberley TAS 7304, Australia",
+        "Kimberley, WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            146.4917019,
-            -41.3985613
+            126.6093926,
+            -17.8480073
           ]
         }
       ]
@@ -1542,12 +1443,12 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Guildford NSW 2161, Australia",
+        "Guildford WA 6055, Australia",
         {
           "type": "Point",
           "coordinates": [
-            150.9866547,
-            -33.85416860000001
+            115.9714263,
+            -31.8995321
           ]
         }
       ]
@@ -1657,12 +1558,12 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "Port Rd, Adelaide SA, Australia",
+        "Port Dr, Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            138.5490791,
-            -34.8897546
+            122.211324,
+            -17.979774
           ]
         }
       ]
@@ -1694,13 +1595,13 @@
   {
     "locations": [
       [
-        "GEOMETRIC_CENTER",
-        "Powerline N Trail, Scheyville NSW 2756, Australia",
+        "APPROXIMATE",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            150.8998904,
-            -33.5942757
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
@@ -1780,13 +1681,13 @@
   {
     "locations": [
       [
-        "APPROXIMATE",
-        "Canberra ACT 2601, Australia",
+        "GEOMETRIC_CENTER",
+        "City Vista, Perth WA 6076, Australia",
         {
           "type": "Point",
           "coordinates": [
-            149.1286843,
-            -35.2819998
+            116.0439399,
+            -31.962504
           ]
         }
       ],
@@ -1803,12 +1704,12 @@
       ],
       [
         "APPROXIMATE",
-        "Western, VIC, Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            142.3613378,
-            -38.0838515
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
@@ -1874,12 +1775,12 @@
       ],
       [
         "APPROXIMATE",
-        "Goldfields QLD 4380, Australia",
+        "Goldfields, WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            151.7332817,
-            -28.4494355
+            121.2626366,
+            -30.1094244
           ]
         }
       ],
@@ -1896,23 +1797,23 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "State Cir, Canberra ACT, Australia",
+        "State St, Victoria Park WA 6100, Australia",
         {
           "type": "Point",
           "coordinates": [
-            149.1295201,
-            -35.3082562
+            115.8978914,
+            -31.9810466
           ]
         }
       ],
       [
-        "GEOMETRIC_CENTER",
-        "Esperance Ave, Dawesville WA 6211, Australia",
+        "APPROXIMATE",
+        "Esperance WA 6450, Australia",
         {
           "type": "Point",
           "coordinates": [
-            115.6341011,
-            -32.6270696
+            121.8932484,
+            -33.8594128
           ]
         }
       ]
@@ -1963,12 +1864,12 @@
     "locations": [
       [
         "GEOMETRIC_CENTER",
-        "Bark Ave, Rowville VIC 3178, Australia",
+        "Bark Cir, Kenwick WA 6107, Australia",
         {
           "type": "Point",
           "coordinates": [
-            145.2710959,
-            -37.9174252
+            115.9840636,
+            -32.0389392
           ]
         }
       ]
@@ -1993,12 +1894,12 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "Jarrah Rd, Crawford River NSW 2423, Australia",
+        "Jarrah Rd, Frankland River WA 6396, Australia",
         {
           "type": "Point",
           "coordinates": [
-            152.0712882,
-            -32.4057196
+            116.9146619,
+            -34.3903544
           ]
         }
       ],
@@ -2042,12 +1943,12 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
@@ -2064,12 +1965,12 @@
       ],
       [
         "APPROXIMATE",
-        "Western, VIC, Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            142.3613378,
-            -38.0838515
+            121.6283098,
+            -27.6728168
           ]
         }
       ]
@@ -2094,12 +1995,12 @@
       ],
       [
         "APPROXIMATE",
-        "Highbury SA 5089, Australia",
+        "Highbury WA 6313, Australia",
         {
           "type": "Point",
           "coordinates": [
-            138.699133,
-            -34.8530539
+            117.240695,
+            -33.0566482
           ]
         }
       ]
@@ -2134,13 +2035,13 @@
         }
       ],
       [
-        "APPROXIMATE",
-        "Wellington NSW 2820, Australia",
+        "GEOMETRIC_CENTER",
+        "Wellington St, Perth WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            148.9427754,
-            -32.5556186
+            115.8575371,
+            -31.95110799999999
           ]
         }
       ]
@@ -2148,6 +2049,36 @@
     "statement": "The Liberal National Government has again signalled its commitment to road safety by allocating $1.37 million to upgrade a heavy vehicle bay on Coalfields Highway. Deputy Premier and Road Safety Minister Liza Harvey said the project was funded by the Road Trauma Trust Account and would take two months to complete. \"Coalfields Highway is the major road freight and passenger link between the South Western Highway and the town of Collie, connecting Bunbury to the inland regions,\" she said. \"Upgrading the heavy vehicle bay on Coalfields Highway, four kilometres east of the intersection with South Western Highway, will significantly improve safety for all road users.\" Transport Minister Dean Nalder said the upgrade to the bay would extend its life and increase capacity to accommodate the growing number of trucks travelling on Coalfields Highway. \"The heavy vehicle bay is an essential stopping area for truck drivers to carry out safety checks of their loads, brakes and tyres before continuing down the Coalfields Hill,\" Mr Nalder said. \"Once upgraded, the new bay will ultimately be able to cater for a further seven road trains, bringing the total capacity to 12 at any one time. \"The upgrade is part of a Government $48 million commitment to improve the Coalfields Highway from west of the Wellington Dam turn-off to just west of the town of Collie.\" Mrs Harvey said a record $146 million had been allocated from the Road Trauma Trust Account in 2016-17, which was made up of speed and red light camera fines. Deputy Premier and Road Safety Minister's office - 6552 5900 Transport Minister's office - 6552 6400",
     "title": [
       "Truck safety upgrade on Coalfields Highway"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "APPROXIMATE",
+        "Perth WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.8570471,
+            -31.9535132
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Busselton WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.3446115,
+            -33.6499446
+          ]
+        }
+      ]
+    ],
+    "statement": "Liberal National Government funding of $400,000 over four years will help Busselton's internationally renowned population health study - celebrating its 50th anniversary this year - solve more mysteries about the health impact of genetics. Visiting the study centre in Busselton today, Health Minister John Day highlighted the latest respiratory research results, which indicate people's basic lung function and how they react to environmental influences such as smoking and disease, are controlled by different genes. \"This type of research is exactly why the State Government supports this globally significant population health study,\" Mr Day said. \"Results like these promise to tease out the specific genes which determine how our lungs develop from conception, and others that control their reaction to outside influences in later life. \"These findings will help tailor future treatment in individual patients, by allowing doctors to use genetic tests to determine and minimise risks. The information could also prove vital for preventative medicine. \"The overwhelming message from this latest research is that promoting health is something we need to be mindful of throughout life, from the unborn child to old age.\" Some of the Government funding will be used to recall and remeasure participants in the long-running Busselton Baby Boomer Study which is investigating the impact of multiple illnesses on physical and mental wellbeing. \"This project, which began as an initiative of local GP, the late Kevin Cullen, is one of the longest-running longitudinal studies in the world and has made an enormous contribution to international health and medical research,\" the Minister said. \"Since it began in 1966, it has attracted some of our leading researchers and more than 25,000 participants, with many of its initial cohort still involved in surveys today. \"That it began when Busselton was a still a holiday and retirement destination with a population of little more than 6,000 people - and yet is still going strong today - is a credit to the researchers, participants and community of Busselton.\" Until the Government made permanent premises available to the study in 2005 - leading to continuous survey activity - much of the study's early data was collected by researchers travelling to Busselton from Perth every three years. \"The researchers would stay about three months at a time and operate from makeshift laboratories set up in tents, caravans or spares room in the homes of locals,\" Mr Day said. \"Busselton locals were so proud and supportive of their study they even organised lamington drives and other grassroots fundraising activities to supplement its shoestring budget.  \"It was this determination, resourcefulness and unwavering commitment of researchers, participants and the Busselton community that has seen the study defy all odds to become the jewel in the crown of Western Australian health research data.\" Data and biospecimens from the Busselton Health Study have contributed to research around the world in areas as diverse as healthy ageing, diabetes, cardiovascular disease, respiratory disease, sleep apnoea and thyroid disease. It has also been instrumental in key scientific findings, including: During his visit, the Minister met retired building inspector Bert Johnson, who has been involved in the study's surveys since the beginning.  Mr Day said it was the generosity of people such as Mr Johnson that had made the study such a success. Minister's office - 6552 6200",
+    "title": [
+      "Busselton breathes new life into lung research"
     ]
   },
   {
@@ -2173,56 +2104,56 @@
     "locations": [
       [
         "GEOMETRIC_CENTER",
-        "Ave Of Europe, Newington NSW 2127, Australia",
+        "Europa Ct, Kallaroo WA 6025, Australia",
         {
           "type": "Point",
           "coordinates": [
-            151.056392,
-            -33.8343374
+            115.7463139,
+            -31.7886624
           ]
         }
       ],
       [
         "GEOMETRIC_CENTER",
-        "Eastern Dr, Gatton QLD 4343, Australia",
+        "Eastern Rd, Geraldton WA 6530, Australia",
         {
           "type": "Point",
           "coordinates": [
-            152.297094,
-            -27.555427
+            114.6197764,
+            -28.7745383
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Western, VIC, Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            142.3613378,
-            -38.0838515
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
@@ -2239,12 +2170,12 @@
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ]
@@ -2269,12 +2200,12 @@
       ],
       [
         "APPROXIMATE",
-        "Ministers Park, Maitland NSW 2320, Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            151.568721,
-            -32.7429618
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
@@ -2301,13 +2232,13 @@
         }
       ],
       [
-        "GEOMETRIC_CENTER",
-        "Lower N E Rd, Adelaide SA, Australia",
+        "APPROXIMATE",
+        "South Yalup Lower Dam, Wagerup WA 6215, Australia",
         {
           "type": "Point",
           "coordinates": [
-            138.7088766,
-            -34.8524428
+            115.9135376,
+            -32.9087778
           ]
         }
       ]
@@ -2315,6 +2246,66 @@
     "statement": "A vehicle pool trial providing people with disability in the Lower South West region with more transport options will continue for another year thanks to $654,425 provided by the Liberal National Government. The South West Wheels program was developed in July 2015 through a partnership between the Disability Services Commission and the not-for-profit Western Australian Motor Industry Foundation. It provides flexible, low-cost access to individualised transport to people with disability living in Manjimup, Busselton and Donnybrook and surrounding areas. Disability Services Minister Donna Faragher said people with disability who were eligible for Disability Services Commission support could access the service, which provides wheelchair accessible vans and sedans and smaller vehicles with wheelchair carriers for a small fee. Mrs Faragher said demand for the South West Wheels service continued to grow, with 380 vehicle bookings in its first 10 months of operation. \"South West Wheels provides an innovative transport service for people with disability, their families and carers living in the Lower South West region,\" she said. \"Not having access to a vehicle, particularly an appropriately equipped vehicle, can restrict a person with disability from fully participating and enjoying community life. \"The availability of these vehicles means people with disability in this area can go out and do the things many of us take for granted, like travel to the doctor or other appointments and social outings.\" From July 1, 2016, the South West Wheels fleet will include 15 vehicles, available from regional centres including Manjimup, Busselton and Donnybrook. Minister's office - 6552 5300",
     "title": [
       "Funds keep South West Wheels turning"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "APPROXIMATE",
+        "Western Australia, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.6283098,
+            -27.6728168
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Busselton WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.3446115,
+            -33.6499446
+          ]
+        }
+      ]
+    ],
+    "statement": "Critical on-ground works to improve the health of Vasse Geographe's waterways will begin after partnership agreements releasing more than $2.3 million in funding were signed today. Water Minister Mia Davies was joined by Regional Development Minister Terry Redman and Environment Minister Albert Jacob to witness the signing between the Department of Water with GeoCatch ($2.052 million), the City of Busselton ($175,000) and the Department of Parks and Wildlife ($128,000). \"We've had a lot of support from the community, local government and agency partners since we formed the Vasse Taskforce, and our partners have stepped up to deliver on the Liberal National Government's commitment to the Vasse Geographe Strategy,\" Ms Davies said. \"The funds released today are from the $7.15 million State Government Royalties for Regions investment to implement the Vasse Geographe Strategy that we announced in December 2015. \"The bulk of the funding will go to GeoCatch to commence initiatives to reduce nutrients entering catchments through improved fertiliser and dairy effluent management, and to lead the communications and community consultation for the strategy.  \"The City of Busselton also funded $175,000 to develop water management plans for the Lower Vasse River and Toby Inlet, and the retrofitting of stormwater basins.\" Environment Minister Albert Jacob said the Department of Parks and Wildlife would use $128,000 to develop an operational plan for the Vasse Wonnerup Wetlands as a member of the Vasse Wonnerup wetlands partnership. \"The Vasse Geographe Strategy supports long-term protection of Geographe Bay and contributes to maintaining high water quality in the Vasse Wonnerup Ramsar wetlands and the Ngari Capes Marine Park,\" Mr Jacob said.  Regional Development Minister Terry Redman said the release of Royalties for Regions funding to partner agencies was a major step forward in implementing the strategy. \"Despite water quality issues caused from a century of land use, the Vasse-Wonnerup Wetlands system retains exceptional ecological values and is an asset to this community,\" Mr Redman said. The Vasse Taskforce oversees the actions and initiatives under the Vasse Geographe Strategy to improve water quality and management of key water assets in the Vasse Geographe catchment.\u00a0  Water Minister's office - 6552 5500 Regional Development Minister's office - 6552 6700 Environment Minister's office - 6552 5800",
+    "title": [
+      "Funding flows for Vasse Geographe projects"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "APPROXIMATE",
+        "Port Hedland International Airport, Great Northern Hwy, Port Hedland WA 6721, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            118.63164,
+            -20.377945
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Port Hedland WA 6721, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            118.5752577,
+            -20.3116266
+          ]
+        }
+      ]
+    ],
+    "statement": "Transport Minister Dean Nalder has announced Fortescue Metals Group subsidiary Pilbara Marine as the successful respondent to provide a second tug service at the Port of Port Hedland, under a non-exclusive licence for towage services. Pilbara Marine will lease Crown land within the port to construct marine and landside facilities for the development of a tug haven behind Anderson Point berths 1 to 3.\u00a0  Mr Nalder said the new licence would create jobs in the Pilbara and provided benefits to port customers.  \"There will be job opportunities during construction of the new tug haven, as well as further employment with the operation and maintenance of extra tug infrastructure,\" he said. \"Port customers will benefit from increased options in tug services and the availability of services to meet future demand. \"Port Hedland is the world's biggest bulk export port.\u00a0 In 2014-15, more than 446 million tonnes of bulk cargo were shipped through the port.\"  Pilbara Marine is expected to begin operations in the 2018-19 financial year with an initial fleet of nine tugs. BHP Billiton (Towage Services) Pty Ltd currently has a non-exclusive licence for towage services at the Port of Port Hedland and operates 18 tugs.  Minister's office - 6552 6400",
+    "title": [
+      "Second tug operator for Port Hedland"
     ]
   },
   {
@@ -2372,106 +2363,46 @@
   {
     "locations": [
       [
-        "APPROXIMATE",
-        "Australia",
+        "ROOFTOP",
+        "St Luke's Catholic Church, Parkside Ramble, Woodvale WA 6026, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            115.8056028,
+            -31.8012696
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Busselton WA, Australia",
+        "Kensington WA 6151, Australia",
         {
           "type": "Point",
           "coordinates": [
-            115.3446115,
-            -33.6499446
-          ]
-        }
-      ]
-    ],
-    "statement": "Critical on-ground works to improve the health of Vasse Geographe's waterways will begin after partnership agreements releasing more than $2.3 million in funding were signed today. Water Minister Mia Davies was joined by Regional Development Minister Terry Redman and Environment Minister Albert Jacob to witness the signing between the Department of Water with GeoCatch ($2.052 million), the City of Busselton ($175,000) and the Department of Parks and Wildlife ($128,000). \"We've had a lot of support from the community, local government and agency partners since we formed the Vasse Taskforce, and our partners have stepped up to deliver on the Liberal National Government's commitment to the Vasse Geographe Strategy,\" Ms Davies said. \"The funds released today are from the $7.15 million State Government Royalties for Regions investment to implement the Vasse Geographe Strategy that we announced in December 2015. \"The bulk of the funding will go to GeoCatch to commence initiatives to reduce nutrients entering catchments through improved fertiliser and dairy effluent management, and to lead the communications and community consultation for the strategy.  \"The City of Busselton also funded $175,000 to develop water management plans for the Lower Vasse River and Toby Inlet, and the retrofitting of stormwater basins.\" Environment Minister Albert Jacob said the Department of Parks and Wildlife would use $128,000 to develop an operational plan for the Vasse Wonnerup Wetlands as a member of the Vasse Wonnerup wetlands partnership. \"The Vasse Geographe Strategy supports long-term protection of Geographe Bay and contributes to maintaining high water quality in the Vasse Wonnerup Ramsar wetlands and the Ngari Capes Marine Park,\" Mr Jacob said.  Regional Development Minister Terry Redman said the release of Royalties for Regions funding to partner agencies was a major step forward in implementing the strategy. \"Despite water quality issues caused from a century of land use, the Vasse-Wonnerup Wetlands system retains exceptional ecological values and is an asset to this community,\" Mr Redman said. The Vasse Taskforce oversees the actions and initiatives under the Vasse Geographe Strategy to improve water quality and management of key water assets in the Vasse Geographe catchment.\u00a0  Water Minister's office - 6552 5500 Regional Development Minister's office - 6552 6700 Environment Minister's office - 6552 5800",
-    "title": [
-      "Funding flows for Vasse Geographe projects"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "APPROXIMATE",
-        "Port Hedland International Airport, Great Northern Hwy, Port Hedland WA 6721, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            118.63164,
-            -20.377945
+            115.8887356,
+            -31.9827138
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Port Hedland WA 6721, Australia",
+        "Northbridge WA 6003, Australia",
         {
           "type": "Point",
           "coordinates": [
-            118.5752577,
-            -20.3116266
+            115.8589146,
+            -31.94914
           ]
         }
-      ]
-    ],
-    "statement": "Transport Minister Dean Nalder has announced Fortescue Metals Group subsidiary Pilbara Marine as the successful respondent to provide a second tug service at the Port of Port Hedland, under a non-exclusive licence for towage services. Pilbara Marine will lease Crown land within the port to construct marine and landside facilities for the development of a tug haven behind Anderson Point berths 1 to 3.\u00a0  Mr Nalder said the new licence would create jobs in the Pilbara and provided benefits to port customers.  \"There will be job opportunities during construction of the new tug haven, as well as further employment with the operation and maintenance of extra tug infrastructure,\" he said. \"Port customers will benefit from increased options in tug services and the availability of services to meet future demand. \"Port Hedland is the world's biggest bulk export port.\u00a0 In 2014-15, more than 446 million tonnes of bulk cargo were shipped through the port.\"  Pilbara Marine is expected to begin operations in the 2018-19 financial year with an initial fleet of nine tugs. BHP Billiton (Towage Services) Pty Ltd currently has a non-exclusive licence for towage services at the Port of Port Hedland and operates 18 tugs.  Minister's office - 6552 6400",
-    "title": [
-      "Second tug operator for Port Hedland"
-    ]
-  },
-  {
-    "locations": [
+      ],
       [
         "GEOMETRIC_CENTER",
-        "Catholic Church Rd, South Australia 5415, Australia",
+        "Cockburn Rd, Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            138.7182352,
-            -33.9123707
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Kensington VIC, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            144.930267,
-            -37.79443
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Northbridge NSW, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            151.2084345,
-            -33.8104459
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Cockburn SA 5440, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            140.9977144,
-            -32.0765183
+            115.7677881,
+            -32.136533
           ]
         }
       ]
@@ -2479,36 +2410,6 @@
     "statement": "A $1.608 million Lotterywest grant will fund the refurbishment of disability agency Identitywa's new head office building in Northbridge and enhance its capacity to support people with disability, their families and carers. Disability Services Minister Donna Faragher said Identitywa - formerly Catholic Care - was one of the State's longest serving and largest providers of services to people with disability. \"Identitywa has a long history of supporting people with disability and their families in WA,\" Mrs Faragher said. \"Demand for its services has grown significantly over the past five years and Identitywa now supports more than 450 individuals and families. \"Their success in providing quality support to people with disability and working in partnership to ensure people live with a sense of purpose, belonging and wellbeing has led to a steady increase in demand.\u00a0 This means they have outgrown their current premises and need room to expand.\" The Minister said the Lotterywest grant would allow Identitywa to refurbish heritage-listed buildings in the Catholic Archdiocese-owned old St Brigid's School in Northbridge. \"The new corporate base in Northbridge is close to public transport and provides a central location with great access for the people Identitywa supports, as well as their families and carers,\" she said. \"The refurbishment of the heritage-listed property will create office space, meeting rooms and a fully accessible large area will be adapted to provide a state-of-the-art training facility.\" Identitywa's move from Kensington to Northbridge is expected to be completed by December 2016.\u00a0 It follows the opening of a Cockburn regional hub in April and Identitywa has future plans to open a north metropolitan hub. Minister's office - 6552 5300",
     "title": [
       "New headquarters for disability agency"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "APPROXIMATE",
-        "Perth WA, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            115.8570471,
-            -31.9535132
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Busselton WA, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            115.3446115,
-            -33.6499446
-          ]
-        }
-      ]
-    ],
-    "statement": "Liberal National Government funding of $400,000 over four years will help Busselton's internationally renowned population health study - celebrating its 50th anniversary this year - solve more mysteries about the health impact of genetics. Visiting the study centre in Busselton today, Health Minister John Day highlighted the latest respiratory research results, which indicate people's basic lung function and how they react to environmental influences such as smoking and disease, are controlled by different genes. \"This type of research is exactly why the State Government supports this globally significant population health study,\" Mr Day said. \"Results like these promise to tease out the specific genes which determine how our lungs develop from conception, and others that control their reaction to outside influences in later life. \"These findings will help tailor future treatment in individual patients, by allowing doctors to use genetic tests to determine and minimise risks. The information could also prove vital for preventative medicine. \"The overwhelming message from this latest research is that promoting health is something we need to be mindful of throughout life, from the unborn child to old age.\" Some of the Government funding will be used to recall and remeasure participants in the long-running Busselton Baby Boomer Study which is investigating the impact of multiple illnesses on physical and mental wellbeing. \"This project, which began as an initiative of local GP, the late Kevin Cullen, is one of the longest-running longitudinal studies in the world and has made an enormous contribution to international health and medical research,\" the Minister said. \"Since it began in 1966, it has attracted some of our leading researchers and more than 25,000 participants, with many of its initial cohort still involved in surveys today. \"That it began when Busselton was a still a holiday and retirement destination with a population of little more than 6,000 people - and yet is still going strong today - is a credit to the researchers, participants and community of Busselton.\" Until the Government made permanent premises available to the study in 2005 - leading to continuous survey activity - much of the study's early data was collected by researchers travelling to Busselton from Perth every three years. \"The researchers would stay about three months at a time and operate from makeshift laboratories set up in tents, caravans or spares room in the homes of locals,\" Mr Day said. \"Busselton locals were so proud and supportive of their study they even organised lamington drives and other grassroots fundraising activities to supplement its shoestring budget.  \"It was this determination, resourcefulness and unwavering commitment of researchers, participants and the Busselton community that has seen the study defy all odds to become the jewel in the crown of Western Australian health research data.\" Data and biospecimens from the Busselton Health Study have contributed to research around the world in areas as diverse as healthy ageing, diabetes, cardiovascular disease, respiratory disease, sleep apnoea and thyroid disease. It has also been instrumental in key scientific findings, including: During his visit, the Minister met retired building inspector Bert Johnson, who has been involved in the study's surveys since the beginning.  Mr Day said it was the generosity of people such as Mr Johnson that had made the study such a success. Minister's office - 6552 6200",
-    "title": [
-      "Busselton breathes new life into lung research"
     ]
   },
   {
@@ -2548,56 +2449,56 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
-          ]
-        }
-      ],
-      [
-        "GEOMETRIC_CENTER",
-        "Dairy Ln, Victoria, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            142.8051832,
-            -38.2083071
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Dairy Creek, Gascoyne River WA 6705, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            115.855103,
+            -25.28241
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Western Australia, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
       [
         "GEOMETRIC_CENTER",
-        "Government Rd, Bute SA 5560, Australia",
+        "Government Rd, Wooroloo WA 6558, Australia",
         {
           "type": "Point",
           "coordinates": [
-            138.0129942,
-            -33.8700786
+            116.316511,
+            -31.8150138
           ]
         }
       ]
@@ -2610,13 +2511,106 @@
   {
     "locations": [
       [
-        "APPROXIMATE",
-        "Australia",
+        "GEOMETRIC_CENTER",
+        "Province Rd, Baldivis WA 6171, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            115.8128978,
+            -32.3471694
+          ]
+        }
+      ]
+    ],
+    "statement": "The Liberal National Government has completed a $14.4 million suite of projects to ensure Busselton's wastewater system caters for growth in the area. Water Minister Mia Davies said more than 10 kilometres of wastewater main was installed, along with construction of a new wastewater pump station. \"The Water Corporation project caters for growth in the area, including taking wastewater from the Provence Estate and Via Vasse residential developments,\" Ms Davies said. \"Work included construction of the wastewater main to connect the new wastewater pump station on Gigondas Street in the Provence Estate to the Busselton Wastewater Treatment Plant. \"Where feasible, the corporation used trenchless technology to install the wastewater main at major road crossings and front verges. \"I would like to thank the community, particularly those in Provence Estate and Via Vasse developments, for their patience while the essential work was carried out.  \"This type of investment is essential to ensure the community has access to vital wastewater services now and into the future.\" Minister's office - 6552 5500",
+    "title": [
+      "Wastewater upgrades completed in Busselton"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "GEOMETRIC_CENTER",
+        "City Vista, Perth WA 6076, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            116.0439399,
+            -31.962504
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Bertram WA 6167, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.8471616,
+            -32.2462874
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Medina WA 6167, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.8074396,
+            -32.2358025
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Leda WA 6170, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.8066237,
+            -32.2602172
+          ]
+        }
+      ],
+      [
+        "GEOMETRIC_CENTER",
+        "Dalrymple Dr, Leda WA 6170, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.8064895,
+            -32.2641767
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Kwinana Beach WA 6167, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.759967,
+            -32.2469389
+          ]
+        }
+      ]
+    ],
+    "statement": "The Liberal National Government has completed a $15.2 million suite of projects to upgrade the wastewater system in Bertram, Parmelia and Orelia.  Water Minister Mia Davies said the upgrades would cater for growth in the City of Kwinana. \"The Water Corporation project included 4.2 kilometres of new wastewater main and a storage tank, and an upgrade to the pump station on Bertram Road,\" Ms Davies said.  \"This followed on from another project the corporation completed in September 2015 to construct 3.2km of wastewater main through the Kwinana town centre and Medina.\u00a0 A wastewater pump station on Dalrymple Drive in Leda was also upgraded as part of the project.\" The Minister said the corporation worked closely with local residents and businesses to minimise impacts to the community. \"I thank the local community for their patience and co-operation while essential work was carried out,\" she said. \"This significant investment ensures wastewater will continue to be managed efficiently, safely and sustainably.\" Minister's office - 6552 5500",
+    "title": [
+      "City of Kwinana wastewater upgrades complete"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "APPROXIMATE",
+        "Western Australia, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
@@ -2632,13 +2626,13 @@
         }
       ],
       [
-        "GEOMETRIC_CENTER",
-        "Angela St, Woree QLD 4868, Australia",
+        "APPROXIMATE",
+        "West Angelas Airport, Newman WA 6753, Australia",
         {
           "type": "Point",
           "coordinates": [
-            145.7400806,
-            -16.9528977
+            118.706975,
+            -23.136453
           ]
         }
       ],
@@ -2663,23 +2657,23 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
       [
         "GEOMETRIC_CENTER",
-        "University W Dr, Brinkin NT 0810, Australia",
+        "S Western Hwy, Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            130.8667531,
-            -12.3707906
+            115.684619,
+            -33.3768315
           ]
         }
       ]
@@ -2693,23 +2687,23 @@
     "locations": [
       [
         "GEOMETRIC_CENTER",
-        "Aspen Ave, Terrigal NSW 2260, Australia",
+        "Aspen Ct, Cooloongup WA 6168, Australia",
         {
           "type": "Point",
           "coordinates": [
-            151.4331688,
-            -33.4343105
+            115.764381,
+            -32.2918971
           ]
         }
       ],
       [
-        "GEOMETRIC_CENTER",
-        "Noble St, Bullaburra NSW 2784, Australia",
+        "APPROXIMATE",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            150.4102694,
-            -33.7260675
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
@@ -2770,99 +2764,6 @@
   {
     "locations": [
       [
-        "GEOMETRIC_CENTER",
-        "The Provence, Northgate SA 5085, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            138.6302572,
-            -34.8538289
-          ]
-        }
-      ]
-    ],
-    "statement": "The Liberal National Government has completed a $14.4 million suite of projects to ensure Busselton's wastewater system caters for growth in the area. Water Minister Mia Davies said more than 10 kilometres of wastewater main was installed, along with construction of a new wastewater pump station. \"The Water Corporation project caters for growth in the area, including taking wastewater from the Provence Estate and Via Vasse residential developments,\" Ms Davies said. \"Work included construction of the wastewater main to connect the new wastewater pump station on Gigondas Street in the Provence Estate to the Busselton Wastewater Treatment Plant. \"Where feasible, the corporation used trenchless technology to install the wastewater main at major road crossings and front verges. \"I would like to thank the community, particularly those in Provence Estate and Via Vasse developments, for their patience while the essential work was carried out.  \"This type of investment is essential to ensure the community has access to vital wastewater services now and into the future.\" Minister's office - 6552 5500",
-    "title": [
-      "Wastewater upgrades completed in Busselton"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "APPROXIMATE",
-        "Canberra ACT 2601, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            149.1286843,
-            -35.2819998
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Bertram WA 6167, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            115.8471616,
-            -32.2462874
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Medina WA 6167, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            115.8074396,
-            -32.2358025
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Leda WA 6170, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            115.8066237,
-            -32.2602172
-          ]
-        }
-      ],
-      [
-        "GEOMETRIC_CENTER",
-        "Dalrymple Rd, Townsville QLD, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            146.7378801,
-            -19.2867045
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Kwinana Beach WA 6167, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            115.759967,
-            -32.2469389
-          ]
-        }
-      ]
-    ],
-    "statement": "The Liberal National Government has completed a $15.2 million suite of projects to upgrade the wastewater system in Bertram, Parmelia and Orelia.  Water Minister Mia Davies said the upgrades would cater for growth in the City of Kwinana. \"The Water Corporation project included 4.2 kilometres of new wastewater main and a storage tank, and an upgrade to the pump station on Bertram Road,\" Ms Davies said.  \"This followed on from another project the corporation completed in September 2015 to construct 3.2km of wastewater main through the Kwinana town centre and Medina.\u00a0 A wastewater pump station on Dalrymple Drive in Leda was also upgraded as part of the project.\" The Minister said the corporation worked closely with local residents and businesses to minimise impacts to the community. \"I thank the local community for their patience and co-operation while essential work was carried out,\" she said. \"This significant investment ensures wastewater will continue to be managed efficiently, safely and sustainably.\" Minister's office - 6552 5500",
-    "title": [
-      "City of Kwinana wastewater upgrades complete"
-    ]
-  },
-  {
-    "locations": [
-      [
         "APPROXIMATE",
         "Midland WA 6056, Australia",
         {
@@ -2883,12 +2784,12 @@
     "locations": [
       [
         "GEOMETRIC_CENTER",
-        "Surf Rd, Seven Mile Beach TAS 7170, Australia",
+        "Surf Dr, Secret Harbour WA 6173, Australia",
         {
           "type": "Point",
           "coordinates": [
-            147.5192988,
-            -42.8503495
+            115.7647028,
+            -32.3989304
           ]
         }
       ],
@@ -2915,13 +2816,13 @@
         }
       ],
       [
-        "APPROXIMATE",
-        "Canberra ACT 2601, Australia",
+        "GEOMETRIC_CENTER",
+        "City Vista, Perth WA 6076, Australia",
         {
           "type": "Point",
           "coordinates": [
-            149.1286843,
-            -35.2819998
+            116.0439399,
+            -31.962504
           ]
         }
       ],
@@ -2949,34 +2850,34 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "Speedway Rd, Victoria, Australia",
+        "Speedway Rd, Brown Range WA 6701, Australia",
         {
           "type": "Point",
           "coordinates": [
-            143.2900048,
-            -38.4192359
+            113.7147929,
+            -24.8746116
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Goldfields QLD 4380, Australia",
+        "Goldfields, WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            151.7332817,
-            -28.4494355
+            121.2626366,
+            -30.1094244
           ]
         }
       ],
       [
         "GEOMETRIC_CENTER",
-        "State Cir, Canberra ACT, Australia",
+        "State St, Victoria Park WA 6100, Australia",
         {
           "type": "Point",
           "coordinates": [
-            149.1295201,
-            -35.3082562
+            115.8978914,
+            -31.9810466
           ]
         }
       ],
@@ -3034,12 +2935,12 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "W Park Grove, Burnie TAS 7320, Australia",
+        "Parks Rd, Highbury WA 6313, Australia",
         {
           "type": "Point",
           "coordinates": [
-            145.8916026,
-            -41.052008
+            117.213631,
+            -33.0243041
           ]
         }
       ]
@@ -3075,12 +2976,12 @@
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
@@ -3108,12 +3009,12 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "State Cir, Canberra ACT, Australia",
+        "State St, Victoria Park WA 6100, Australia",
         {
           "type": "Point",
           "coordinates": [
-            149.1295201,
-            -35.3082562
+            115.8978914,
+            -31.9810466
           ]
         }
       ],
@@ -3140,13 +3041,13 @@
         }
       ],
       [
-        "APPROXIMATE",
-        "Warren NSW 2824, Australia",
+        "GEOMETRIC_CENTER",
+        "Warren Rd, Nannup WA 6275, Australia",
         {
           "type": "Point",
           "coordinates": [
-            147.8366391,
-            -31.7006509
+            115.765402,
+            -33.9841838
           ]
         }
       ]
@@ -3181,24 +3082,24 @@
         }
       ],
       [
-        "APPROXIMATE",
-        "Savannah QLD 4816, Australia",
+        "GEOMETRIC_CENTER",
+        "Savannah Corner, Nickol WA 6714, Australia",
         {
           "type": "Point",
           "coordinates": [
-            141.5481287,
-            -19.2428761
+            116.7946934,
+            -20.7425061
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Great Western Hwy & Australia St, St Marys NSW 2760, Australia",
+        "Main Roads Depot, Fitzroy Crossing WA 6765, Australia",
         {
           "type": "Point",
           "coordinates": [
-            150.7809323,
-            -33.7718276
+            125.5704027,
+            -18.1997873
           ]
         }
       ],
@@ -3215,12 +3116,12 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "Shire Rd, Tooleybuc NSW 2736, Australia",
+        "Shire St, Pingelly WA 6308, Australia",
         {
           "type": "Point",
           "coordinates": [
-            143.3555781,
-            -35.0263652
+            117.0909291,
+            -32.5341302
           ]
         }
       ],
@@ -3237,12 +3138,12 @@
       ],
       [
         "APPROXIMATE",
-        "Kimberley TAS 7304, Australia",
+        "Kimberley, WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            146.4917019,
-            -41.3985613
+            126.6093926,
+            -17.8480073
           ]
         }
       ]
@@ -3256,34 +3157,34 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
       [
-        "GEOMETRIC_CENTER",
-        "Australia Ave, Broadbeach QLD 4218, Australia",
+        "APPROXIMATE",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            153.4316662,
-            -28.0246829
+            121.6283098,
+            -27.6728168
           ]
         }
       ]
@@ -3327,12 +3228,12 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Kimberley TAS 7304, Australia",
+        "Kimberley, WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            146.4917019,
-            -41.3985613
+            126.6093926,
+            -17.8480073
           ]
         }
       ],
@@ -3390,23 +3291,23 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "Rio Vista Blvd, Gold Coast QLD, Australia",
+        "Rio St, Bayswater WA 6053, Australia",
         {
           "type": "Point",
           "coordinates": [
-            153.4149915,
-            -28.0386862
+            115.9217642,
+            -31.9114889
           ]
         }
       ],
       [
         "GEOMETRIC_CENTER",
-        "Tinto Grove, Tecoma VIC 3160, Australia",
+        "Rio Tinto Cape Lambert Drive, Point Samson WA 6720, Australia",
         {
           "type": "Point",
           "coordinates": [
-            145.3426516,
-            -37.900751
+            117.1713931,
+            -20.5979081
           ]
         }
       ]
@@ -3431,12 +3332,12 @@
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
@@ -3483,12 +3384,12 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ]
@@ -3502,12 +3403,12 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
@@ -3554,12 +3455,12 @@
       ],
       [
         "APPROXIMATE",
-        "Fitzroy VIC 3065, Australia",
+        "Fitzroy, Fitzroy Crossing WA 6765, Australia",
         {
           "type": "Point",
           "coordinates": [
-            144.9786869,
-            -37.7987007
+            125.568887,
+            -18.194162
           ]
         }
       ]
@@ -3584,12 +3485,12 @@
       ],
       [
         "APPROXIMATE",
-        "Hopetoun VIC 3396, Australia",
+        "Hopetoun WA 6348, Australia",
         {
           "type": "Point",
           "coordinates": [
-            142.3635906,
-            -35.7277152
+            120.1263495,
+            -33.9448185
           ]
         }
       ],
@@ -3617,23 +3518,23 @@
       ],
       [
         "GEOMETRIC_CENTER",
-        "Geraldton Rd, Brisbane QLD, Australia",
+        "Geraldton Grove, Rockingham WA 6168, Australia",
         {
           "type": "Point",
           "coordinates": [
-            153.0487852,
-            -27.7471398
+            115.7406304,
+            -32.27842500000001
           ]
         }
       ],
       [
         "GEOMETRIC_CENTER",
-        "Middle Creek Rd, Langlo QLD 4470, Australia",
+        "Middle Rd, Jerdacuttup WA 6346, Australia",
         {
           "type": "Point",
           "coordinates": [
-            145.9352304,
-            -25.916582
+            120.5035773,
+            -33.7816309
           ]
         }
       ],
@@ -3650,23 +3551,23 @@
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Kimberley TAS 7304, Australia",
+        "Kimberley, WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            146.4917019,
-            -41.3985613
+            126.6093926,
+            -17.8480073
           ]
         }
       ]
@@ -3706,141 +3607,12 @@
     "locations": [
       [
         "APPROXIMATE",
-        "Albany WA 6330, Australia",
+        "Manjimup WA 6258, Australia",
         {
           "type": "Point",
           "coordinates": [
-            117.8847286,
-            -35.0238227
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Sorrento VIC 3943, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            144.741409,
-            -38.338531
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Tammin WA 6409, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            117.4836406,
-            -31.6419255
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Mundaring WA, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            116.165723,
-            -31.9014641
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            133.775136,
-            -25.274398
-          ]
-        }
-      ]
-    ],
-    "statement": "Sport and Recreation Minister Mia Davies has congratulated the best of the bowls community during the annual Bowls WA Awards.\u00a0\u00a0  \"While bowls is one of the most popular, and in many cases the most competitive sport played by hundreds of thousands of people of all ages throughout Australia, bowls is far more than just a sport,\" Ms Davies said. \"To so many who take part, from within our largest cities to our most remote country regions, bowls is a way of life; a means of socialising and community building. \"There's no more valuable asset to a community than having people from a very young age through to the elderly being together enjoying competitive and social play, side by side.\" The evening awards featured the induction into the Bowls WA Hall of Fame of two Western Australian champion bowlers, Lee Poletti and Graeme Wishart. Bowler of the Year Awards for an outstanding season went to Noelene Abe of Corrigin, who received the Connie Hicks Brooch; and the Rosenthal Medal went to Tom Mitchell from Manning.  Other award winners were Robert Gibbons of the Gosnells Bowling Club (Volunteer of the Year); Ken Perks from the Morley Bowling Club (Coach of the Year); Tammin and Albany (Small Country Club and Country Club of the Year) and their metropolitan counterparts in Mundaring and Sorrento. \"Across the State, there are nearly 16,000 members of all ages who belong to 207 bowling clubs, all enjoying a sport which is keeping them active and connected,\" Ms Davies said. Bowls receives $150,000 annually in Organisational Sustainability Program funding from the Liberal National Government through the Department of Sport and Recreation. Since 2008, bowling clubs across WA have received more than $14 million in facilities funding through the Community Sporting and Recreation Facilities Fund.\u00a0  Minister's office - 6552 5500",
-    "title": [
-      "Bowls WA honours best at awards"
-    ]
-  },
-  {
-    "locations": [
-      [
-        "APPROXIMATE",
-        "Albany WA 6330, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            117.8847286,
-            -35.0238227
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Mandurah WA, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            115.7427457,
-            -32.5368093
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Elizabeth SA 5112, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            138.671592,
-            -34.7202334
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Geraldton WA 6530, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            114.6096326,
-            -28.7732192
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Port Hedland WA 6721, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            118.5752577,
-            -20.3116266
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Kalgoorlie WA, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            121.4748606,
-            -30.7470074
-          ]
-        }
-      ],
-      [
-        "GEOMETRIC_CENTER",
-        "State Cir, Canberra ACT, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            149.1295201,
-            -35.3082562
+            116.1455942,
+            -34.2418403
           ]
         }
       ],
@@ -3857,104 +3629,242 @@
       ],
       [
         "APPROXIMATE",
-        "Australia",
+        "Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
+            121.6283098,
+            -27.6728168
           ]
         }
       ],
       [
-        "APPROXIMATE",
-        "Australia",
+        "GEOMETRIC_CENTER",
+        "Great Southern Hwy, Western Australia, Australia",
         {
           "type": "Point",
           "coordinates": [
-            133.775136,
-            -25.274398
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Fremantle WA 6160, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            115.7471797,
-            -32.0560399
+            117.616879,
+            -33.7926564
           ]
         }
       ]
     ],
-    "statement": "Premier Colin Barnett has congratulated Perth businessman and community leader Adrian Fini OAM on being named the 2016 Western Australian of the Year. \"This prestigious award is well deserved by Adrian, who makes a significant contribution to the Western Australian community through his roles as chairman of the Art Gallery of Western Australia Foundation and on the boards of The University of Western Australia Business School and Perth International Arts Festival,\" Mr Barnett said. \"Through his property development businesses, Adrian has also helped to shape a new, contemporary Perth city.\u00a0 His company's work on the restoration of the State Buildings was exemplary.\" Mr Fini received the honour at a gala Western Australian of the Year Awards ceremony held tonight at Crown Perth.  The Premier also congratulated other individual winners including Rishelle Hume, who received the Aboriginal Award; Warwick Hemsley - Arts and Culture Award; Dr John van Bockxmeer - Community Award; Professor Arlene Chan - Professions Award; Caitlin Bassett and Nathan Fyfe as joint winners of the Sport Award; and Ashlee Harrison - Youth Award. Speaking at the event, organised by Celebrate WA, Mr Barnett said WA Day was not only about looking forward, but also recognising Aboriginal and subsequent settlement of WA and the enormous contribution migrants had made to the State. \"WA's history dates back more than 40,000 years, with the first inhabitants of the South-West being the Noongar people,\" he said. \"Recently, State Parliament passed the Noongar (Koorah, Nitja, Boordahwan) (Past, Present, Future) Recognition Bill 2015, which formally recognises the Noongar people as the traditional owners of the land in the South-West.  \"It is significant that the Bill will be proclaimed on June 6, 2016, which this year will be WA Day. \"This is a historic occasion and an achievement of which the Liberal National Government is proud.\u00a0 It embodies the spirit of the WA Day holiday.\" The Premier encouraged West Australians to enjoy some of the major events being held across the State over the long weekend.\u00a0 These included a WA Day Festival at Elizabeth Quay on Monday, featuring free family activities such as WA's best burger cook-off and workshops with Western Australian sport stars. Family activities would also be held at Esplanade Park in Fremantle and at the Western Australian Museum in Albany, Geraldton and Kalgoorlie-Boulder.\u00a0 Port Hedland and Mandurah were also hosting festivals. Premier's office - 6552 5000",
+    "statement": "The first stage of construction of the new Warren Health Service in Manjimup is now complete. Health Minister John Day said forward works included demolition of the corporate services building and some accommodation blocks of the old hospital, diversion of existing services and preparation of the foundations for the new building. \"The building tender for the main build of the new Warren Health Service has now been released and the contract is due to be awarded in July 2016.\u00a0 Construction will begin soon after and the hospital is due to be completed by mid-2018,\" Mr Day said.  \"The new hospital will include a state-of-the-art emergency department, an inpatient ward, surgical services, operating theatre, medical imaging, pathology and outpatient, primary health care and other support services.\" The new build is part of the State Government's Royalties for Regions investment in the Southern Inland Health Initiative's capital infrastructure program that prioritises new builds and upgrades to 37 hospitals and health services in the Wheatbelt, South-West, Great Southern and Mid-West. Regional Development Minister Terry Redman said the Liberal National Government's $500 million Southern Inland Health Initiative had been made possible by the Royalties for Regions program and was being delivered by the WA Country Health Service. \"As the Member for Warren-Blackwood, I'm pleased to see this new health facility come to fruition and for the people of Manjimup to be provided with a modern, well-equipped health facility that suit present and future needs,\" Mr Redman said. \"Royalties for Regions is transforming health care across regional Western Australia.\u00a0 Regional communities deserve access to a high level of health care and investing in health infrastructure and services can reduce the need for residents to travel to Perth for diagnosis or treatment.\" Health Minister's office - 6552 6200 Regional Development Minister's office - 6552 6700",
     "title": [
-      "Adrian Fini awarded Western Australian of the Year"
+      "Milestone reached for new Manjimup hospital"
     ]
   },
   {
-    "locations": [],
-    "statement": "State Cabinet records just released from 30 years ago provide a fascinating insight into several significant decisions that helped shape Western Australia. Culture and the Arts Minister John Day said the 1985 records highlighted a memorable and turbulent time in WA. \"While Cabinet approved the drafting of legislation to start the Burswood Island casino and gave the green light to build the Hillarys Boat Harbour, there are several perennial issues mentioned which we are still grappling with,\" Mr Day said. \"For instance, Cabinet also moved to reform sexual assault laws, as well as establishing a task force to inquire into domestic violence.\u00a0  \"Approval was given to release an interim report into retail trading hours and for a Bill requiring Members of the Western Australian Parliament to publicly disclose financial interests.\"  Other decisions included the electrification of the suburban rail system at an approximate cost of $146 million; the drafting of legislation to establish the Western Australian Planning Commission; a study and land acquisition for the Dawesville Cut; in-principle agreement for the creation of the Marmion Marine Park; and the consideration of a national park to protect the Bungle Bungles. The Western Australian Exim Corporation Limited was established and tasked with targeting Middle Eastern and Asian export markets and, in a sign of things to come, approval was given to install 2,600 computers in primary and secondary schools. Minister's office - 6552 6200",
+    "locations": [
+      [
+        "APPROXIMATE",
+        "Boulder WA 6432, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.4883572,
+            -30.7819844
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Esperance WA 6450, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.8932484,
+            -33.8594128
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Goldfields, WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.2626366,
+            -30.1094244
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Kalgoorlie WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.4748606,
+            -30.7470074
+          ]
+        }
+      ],
+      [
+        "GEOMETRIC_CENTER",
+        "Barbara St, Bremer Bay WA 6338, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            119.3805803,
+            -34.3946908
+          ]
+        }
+      ],
+      [
+        "GEOMETRIC_CENTER",
+        "Killarney St, Kalgoorlie WA 6430, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.460237,
+            -30.73029429999999
+          ]
+        }
+      ]
+    ],
+    "statement": "The Goldfields-Esperance region is set to benefit from the State Government's Royalties for Regions program for three new projects, receiving a $20.58 million investment through the Goldfields-Esperance Revitalisation Fund. Regional Development Minster Terry Redman said the Kalgoorlie Central Hannan Precinct revitalisation project, Goldfields Rehabilitation Services and the Killarney Retirement Living project would all receive funding under the fund. \"The fund is helping build a social and infrastructure platform for the region's economic development and will drive growth and new investment,\" Mr Redman said. \"Royalties for Regions is investing in initiatives that deliver tangible benefits to regional communities.\" The Kalgoorlie Central Hannan Precinct revitalisation will receive $8 million in Liberal National Government funding for the revitalisation of St Barbara Square area and Cassidy Street.  Goldfields Rehabilitation Services will use their $2.78 million funding boost for a drug and alcohol detoxification and rehabilitation program and the refurbishment of the existing facility and the construction of a new building in Kalgoorlie-Boulder. The Killarney Retirement Living project will receive $9.8 million for the construction of a 45-unit independent living accommodation for pensioners living in the Goldfields-Esperance region.\u00a0  The Goldfields-Esperance Revitalisation Fund is a Royalties for Regions initiative that invests in priority projects to support economic and social development in the region.  \"I would like to congratulate the Goldfields-Esperance Development Commission for their hard work to ensure the projects are robust and will deliver significant benefits to the region,\" the Minister said. Minister's office - 6552 6700",
     "title": [
-      "State Records Office releases snapshot of 1985"
+      "Goldfields to benefit from $20.58 million investment"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "APPROXIMATE",
+        "Goldfields, WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.2626366,
+            -30.1094244
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Esperance WA 6450, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.8932484,
+            -33.8594128
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Kalgoorlie WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.4748606,
+            -30.7470074
+          ]
+        }
+      ]
+    ],
+    "statement": "International medical graduates in the Goldfields region will continue to have access to high-quality education thanks to the State Government's Royalties for Regions program. The Forward to Fellowship program, facilitated by Rural Health West, provides international medical graduates with personal, professional and training support to help their integration into Australian medical general practice. Regional Development Minister Terry Redman said the Liberal National Government's $532,100 investment would support the growing number of new international medical graduates practising in the area by offering further education in the region. \"The Forward to Fellowship program helps these graduates form partnerships with other general practitioners and supports doctors and their families by encouraging them to stay in the Goldfields-Esperance region after completing their Fellowship qualifications,\" Mr Redman said. \"The program has already resulted in a significant reduction in presentations at the Kalgoorlie Health Campus Emergency Department and is enabling the community to have easier access to general practitioners.\" Health Minister John Day said the program was a vital collaboration between organisations committed to delivering high-quality continuous education. \"This is about providing a stable and sustainable regional medical workforce,\" Mr Day said. \"With research showing 55 per cent of our rural and remote medical professionals have obtained their qualifications overseas, helping to provide a pathway for them to work here is making a big difference in regional Western Australia. \"Seventeen international medical graduates were in the program's initial cohort, with three already achieving Fellowships.\" Regional Development Minister's office - 6552 6700  Health Minister's office - 6552 6200 ",
+    "title": [
+      "Goldfields health benefits from graduate boost"
     ]
   },
   {
     "locations": [
       [
         "GEOMETRIC_CENTER",
-        "Elizabeth Dr, Sydney NSW, Australia",
+        "Rio St, Bayswater WA 6053, Australia",
         {
           "type": "Point",
           "coordinates": [
-            150.807992,
-            -33.8807384
+            115.9217642,
+            -31.9114889
           ]
         }
       ],
       [
         "GEOMETRIC_CENTER",
-        "Florence St, Cairns QLD 4870, Australia",
+        "Iron Ore Parade, Newman WA 6753, Australia",
         {
           "type": "Point",
           "coordinates": [
-            145.770768,
-            -16.9203223
+            119.734158,
+            -23.356472
           ]
         }
       ],
       [
         "APPROXIMATE",
-        "Elizabeth SA 5112, Australia",
+        "Perth WA, Australia",
         {
           "type": "Point",
           "coordinates": [
-            138.671592,
-            -34.7202334
-          ]
-        }
-      ],
-      [
-        "APPROXIMATE",
-        "Western, VIC, Australia",
-        {
-          "type": "Point",
-          "coordinates": [
-            142.3613378,
-            -38.0838515
+            115.8570471,
+            -31.9535132
           ]
         }
       ]
     ],
-    "statement": "More than 15,000 people are expected to visit Perth's newest major tourism precinct Elizabeth Quay today to enjoy a range of free family entertainment in celebration of WA Day. Planning Minister Donna Faragher said the precinct's public open spaces and facilities, views across the Swan River and central business district location provided a world-class venue for major social and cultural events. \"Elizabeth Quay continues to grow as Western Australia's premier tourism development and as a highly sought-after waterfront community and premier events venue,\" Mrs Faragher said. \"The large number of visitors to the quay today and over this long weekend will boost total visitor numbers to date to more than two million people since the precinct opened in January this year.\" The Minister said the WA Day festivities at Elizabeth Quay were one of the largest events held at the quay this year and followed the highly successful Perth International Arts Festival, Fringe World Festival and the Night Noodle Markets. Future events at Elizabeth Quay will include the Swan Festival of Lights and the World Masters Athletics Championships welcoming ceremony, featuring thousands of athletes from around the globe.  Existing food and beverage offerings will also be expanded, with Gusto Gelato ready to host their official opening next Friday and Isle of Voyage set to open their doors soon at the Florence Hummerston Kiosk.\u00a0  \"In the lead-up to summer, there will be a raft of activities at Elizabeth Quay in terms of major public and community events, supported by new and exciting food and beverage outlets opening up in the precinct,\" Mrs Faragher said. \"Elizabeth Quay's city riverside location, its flexibility as an event and recreation space, and access to public transport is certainly contributing to its success as an emerging major tourism attraction for Western Australia.\" Minister's office - 6552 5300",
+    "statement": "Premier Colin Barnett today announced that the new $1.2 billion Perth Children's Hospital (PCH) would begin treating its first patients in late October 2016. \"Perth Children's Hospital will be a world-class paediatric centre with modern facilities, advanced technologies and new ways of working, which will bring enormous benefits for patients, families and staff,\" Mr Barnett said. \"We made a decision very early in our first term of Government that we would build a new children's hospital to serve the community well into the next century.\u00a0 It was always a priority over the construction of a new stadium. \"This is a direct benefit of the State's period of economic prosperity after changes in 2010 to 11 Iron Ore State Agreements held by BHP Billiton and Rio Tinto allowed the Liberal National Government to allocate $350 million towards PCH. \"It is planned for the first outpatient clinics to start on October 24, followed by the start of selected day surgery from November 7, with the final patient move from Princess Margaret Hospital for Children planned for Sunday, November 20. \"This is an exciting milestone which highlights the State Government's clear commitment to improve health outcomes for our children, now and into the future. \"Although commissioning such an advanced hospital is a challenging task, the Government has delivered many new hospitals in recent years and that considerable experience is being used to ensure the transition is as smooth as possible.\" Health Minister John Day said it was important to schedule key commissioning target dates. \"This ensures appropriate and accurate planning for the transition period because all equipment, systems and treatment processes must be repeatedly tested before we begin treating our young patients at the new facility,\" Mr Day said.  \"The hospital opening will be a tremendous achievement, with PCH forming the centre of a network of new and expanded facilities for children and families that we have built across the State.  \"We will not compromise safety, and the hospital will only accept patients on the planned dates if construction and commissioning activities are complete and the move can be done safely.\" The Premier said he was pleased to see the significant progress in construction which had meant commissioning and moving plans could be finalised. \"It has been a very complex project, however the result is a world-class facility all West Australians can be proud of,\" he said. \"The hospital is on track for building handover in August, however many areas such as intensive care and operating theatres are already being accessed by PCH commissioning team staff.\" Princess Margaret Hospital for Children will remain open as the State's only dedicated paediatric hospital and major trauma centre until the final patient move to PCH. Premier's office - 6552 5000 Health Minister's office - 6552 6200",
     "title": [
-      "Elizabeth Quay hosts WA Day celebrations"
+      "PCH plans to treat first patients in October"
     ]
   },
   {
     "locations": [
+      [
+        "APPROXIMATE",
+        "Western Australia, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.6283098,
+            -27.6728168
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Western Australia, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.6283098,
+            -27.6728168
+          ]
+        }
+      ]
+    ],
+    "statement": "Economic development, an innovative and skilled workforce and growing export markets were just some of the opportunities highlighted in the CEDA State of the Regions series report, released today. Regional Development Minister Terry Redman launched the report at the CEDA State of the Regions Series: Regional development in Western Australia event.\u00a0  The report is the culmination of a two-year regional event series held by CEDA in each of the nine regions across the State. \"The final report captures the key findings and outcomes of the series and outlines an action plan for capitalising on opportunities to ensure sustainable, long-term growth for our regions,\" Mr Redman said. \"CEDA's State of the Regions series has generated robust discussion on development and growth opportunities within WA's regional economies.\u00a0  \"The series has also provided the nine regional development commissions with a platform to outline the growth and development aspirations mapped out in their Regional Investment Blueprints.\" The Minister also outlined a strategic approach to building vibrant regions with strong economies, with the release of the Regional Development Strategy 2016-2025. \"Our regions are vital drivers of the State's economy, contributing more than one-third of WA's economic activity and 95 per cent of the State's exports,\" he said. \"As WA's economy transitions, regional development is uniquely positioned to help broaden the economy through a focus on jobs and growth. \"The Regional Development Strategy provides a framework to prioritise and progress the development opportunities with the most potential emerging from blueprints and other sources.\" Minister's office - 6552 6700",
+    "title": [
+      "Economic growth key for regional development"
+    ]
+  },
+  {
+    "locations": [
+      [
+        "APPROXIMATE",
+        "Roebuck WA 6725, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            122.5046801,
+            -18.1721414
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Western Australia, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            121.6283098,
+            -27.6728168
+          ]
+        }
+      ],
       [
         "APPROXIMATE",
         "Broome WA 6725, Australia",
@@ -3968,33 +3878,134 @@
       ],
       [
         "APPROXIMATE",
-        "Kimberley TAS 7304, Australia",
+        "Dampier WA 6713, Australia",
         {
           "type": "Point",
           "coordinates": [
-            146.4917019,
-            -41.3985613
+            116.7084604,
+            -20.6637988
+          ]
+        }
+      ],
+      [
+        "GEOMETRIC_CENTER",
+        "Shire St, Pingelly WA 6308, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            117.0909291,
+            -32.5341302
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Carnarvon WA 6701, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            113.6570204,
+            -24.8826946
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Western Flora Caravan Park, Brand Hwy, Eneabba WA 6518, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.216798,
+            -29.62566
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Kimberley, WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            126.6093926,
+            -17.8480073
           ]
         }
       ]
     ],
-    "statement": "Lands Minister Terry Redman today announced Kimberley Asparagus Pty Ltd, a joint venture between local Rusty Dredge and the Western Australian branch of the Fresh Produce Group, had been successful in its land release proposal for the Skuthorpe Horticulture Area near Broome. The Department of Lands ran an Expressions of Interest process for initiatives that promote horticultural activity for the 682 hectares of land.\u00a0 Proposals were received from a variety of businesses.  Mr Redman said the panel determined Kimberley Asparagus met all criteria at a high level and demonstrated its understanding of growing in local conditions, export potential, and had retail opportunities to sell its product. \"Kimberley Asparagus was chosen as it had a clear vision for expanding horticultural opportunities in the Kimberley region, which will also boost job opportunities in the region,\" he said. \"The prospective economic benefits for WA are significant, with the potential to create export opportunities for the asparagus which will be produced.\" The land release was made possible by the Liberal National Government's unprecedented investment in agriculture under the $350 million Seizing the Opportunity Agriculture initiative, made possible by the State Government's Royalties for Regions program. It is expected 55 jobs will be created, with flow-on benefits including revitalisation of the regional economy, purchase of technical services and investment in the community.\u00a0 The proposal will also earn export income for WA. Water Minister Mia Davies said the Kimberley Asparagus proposal was a significant opportunity to develop irrigated agriculture in the region. \"This venture is consistent with the focus of the Water for Food program in supporting regional growth and economic development through the expansion of irrigated agriculture,\" Ms Davies said. Lands Minister's office - 6552 6700 Water Minister's office - 6552 5500",
+    "statement": "Chinatown in Broome will undergo a major revitalisation following a $10 million investment made possible by the State Government's Royalties for Regions program. Regional Development and Lands Minister Terry Redman said the Liberal National Government investment would have a significant and lasting impact on the traditional business, entertainment and retail centre of Broome. The project consists of improvements such as major upgrades to Carnarvon Street and Dampier Terrace, as well as feasibility and technical studies for projects including a cultural centre, the extension of Gray Street and the reconnection of Chinatown to Roebuck Bay. \"Chinatown has a rich multicultural and industrial history which presents unique opportunities for growth of the town centre through projects that will boost the economic potential for local businesses and the retail and tourism sectors,\" Mr Redman said. \"The Shire of Broome and LandCorp will deliver the Chinatown Revitalisation project in partnership with the Kimberley Development Commission, building on this vibrant precinct that highlights its continuing strong Aboriginal cultural heritage and pearling history. \"This is another example of how Royalties for Regions provides substantial investment to regional communities, ensuring they continue to thrive socially and economically.\" The project will receive extra investment including $2 million from the Shire of Broome and $600,000 from the Tourism Demand Driver Infrastructure program, a Federal Government-funded initiative managed by Tourism Western Australia. The Minister said the funding would enable the partnership to deliver on preparatory work undertaken over the last few years, building on from the shire's Chinatown Development Strategy and the Broome Growth Plan. \"Revitalising Chinatown is important for the town's future and we will now be able to go ahead and reinvigorate the traditional heart of Broome, delivering short, medium and long-term benefits to the local economy,\" he said. Minister's office - 6552 6700",
     "title": [
-      "Broome horticultural land to open new markets"
+      "Chinatown in Broome set for revitalisation"
     ]
   },
   {
-    "locations": [],
-    "statement": "The Liberal National Government today committed a further $21,330 to community road safety initiatives to help raise awareness of road safety across Western Australia. Deputy Premier and Road Safety Minister Liza Harvey said the range of grassroots projects in the latest round of the Community Grants Program was inspiring. \"There's a great variety, including a football carnival where the players pledge to drink only water straight after the game,\" Mrs Harvey said. \"Importantly, all of these projects help to educate the local community about the importance of road safety in WA.\" The Community Grants Program is administered through the Road Safety Commission and funded by the Road Trauma Trust Account.\u00a0  The Minister said the State Government had committed $360,000 to community grants in the 2015-16 financial year. Deputy Premier and Road Safety Minister's office - 6552 5900",
+    "locations": [
+      [
+        "GEOMETRIC_CENTER",
+        "State St, Victoria Park WA 6100, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.8978914,
+            -31.9810466
+          ]
+        }
+      ]
+    ],
+    "statement": "Water Minister Mia Davies today welcomed the appointment of Ross Holt to the board of the Water Corporation. As former chief executive officer of the WA Land Authority (LandCorp) and Assistant Under Treasurer, Mr Holt brings extensive planning, development and finance experience to the board Mr Holt is currently deputy chancellor of Murdoch University, chairman of the Forest Products Commission, non-executive chairman of Ralph Beattie Bosworth Pty Ltd and non-executive director of NS Projects.\u00a0  \"As the Minister for Water, I am looking forward to working with Mr Holt and all board members at the corporation under the leadership of chairwoman Eva Skira,\" Ms Davies said. \"Mr Holt joins recently appointed board members David Rowe and Nicole Lockwood.\" The Minister said the board played a critical role leading the corporation. \"The board is working hard to ensure the corporation continues to provide the best value service across our vast State for more than two million West Australians,\" she said. Minister's office - 6552 5500",
     "title": [
-      "More community road safety projects funded"
+      "New board member for the Water Corporation"
     ]
   },
   {
-    "locations": [],
-    "statement": "Mental Health Minister Andrea Mitchell today officially launched the WA Eating Disorders Outreach and Consultation Service (WAEDOCS). The service provides State-wide consultation and education services to clinicians caring for adults and youths aged over 16 with eating disorders. Ms Mitchell said the launch marked early delivery of an enhanced State-wide eating disorder service in line with the Western Australian Mental Health, Alcohol and Other Drug Services Plan 2015-2025, which recommended such a service be established by the end of 2017. \"Eating disorders have the highest mortality of any psychiatric disorder, so the importance of this service cannot be underestimated,\" she said. \"The window of opportunity for successful treatment outcomes for individuals with eating disorders begins to decline after three years, so it is important to invest in effective services for the years following the onset of the disorder. \"WAEDOCS will enhance the knowledge and skills of current community and hospital health professionals to deliver best-practice treatment and support through consulting, mentoring, training and education.\" The focus of the service will be capacity building within local health and mental health care services and guiding services to develop evidence-based patient-centered care pathways within and between treatment settings.\u00a0 This will support sustained recovery and minimise relapse and hospitalisation. WAEDOCS has already developed a guideline for the admission and inpatient treatment of people with eating disorders in WA. The service is available to clinicians throughout WA across all settings, including emergency departments, medical wards, mental health units, Hospital in the Home teams and clinical community services.\u00a0 It is also available to general practitioners and community health and mental health care services across public, private and community-managed organisations. Minister's office - 6552 5400",
+    "locations": [
+      [
+        "APPROXIMATE",
+        "Boddington WA 6390, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            116.4745961,
+            -32.8024431
+          ]
+        }
+      ],
+      [
+        "APPROXIMATE",
+        "Byford WA 6122, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            116.0081156,
+            -32.2217513
+          ]
+        }
+      ],
+      [
+        "ROOFTOP",
+        "Port Bouvard Bridge, Old Coast Rd, Dawesville WA, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            115.6402618,
+            -32.6059939
+          ]
+        }
+      ],
+      [
+        "GEOMETRIC_CENTER",
+        "Peel Terrace, Northam WA 6401, Australia",
+        {
+          "type": "Point",
+          "coordinates": [
+            116.6805427,
+            -31.6501436
+          ]
+        }
+      ]
+    ],
+    "statement": "Regional Development Minister Terry Redman today announced the latest grant recipients of the Peel region's Community Chest Fund, made possible by the Liberal National Government's Royalties for Regions program. Mr Redman said a total of $500,000 in grants had been awarded to 20 community groups, public and not-for-profit organisations for projects to improve and develop infrastructure and services in the regions. \"The Community Chest Fund provides voluntary organisations, educational institutions and community organisations with grants of up to $50,000 to support local projects,\" he said. \"Projects supported through the Peel Community Chest Fund in this round include shade protection and fencing at Waroona Bowling and Social Club, a community garden in Byford, the purchase of training yachts and a floating pontoon for disability sailing at Port Bouvard and the extension of a walking trail in Boddington. \"These projects will help attract investment, increase job opportunities and improve the quality of life for communities in the Peel region. \"The fund supports region-specific priorities that are driven by local communities to assist the development of infrastructure, services and community projects that help build vibrant regions with strong economies. \"Hundreds of diverse projects and organisations across regional WA have significantly benefited from the fund in recent years.\" Western Australia's nine regional development commissions oversee the projects, each being allocated an equal share from which to provide the Community Chest Fund grants. The Liberal National Government, through the Royalties for Regions program, has invested $10 million into the Community Chest Fund over the next four years. \n    Minister's office - 6552 6700 \n    \n   ",
     "title": [
-      "WA eating disorders service launched"
+      "Community chest funding for Peel region"
     ]
   }
 ]
