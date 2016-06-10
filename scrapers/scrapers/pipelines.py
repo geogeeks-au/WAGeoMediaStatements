@@ -16,11 +16,16 @@ class JsonMediaStatementsPipe(object):
 
     def __init__(self):
         self.file = open('mstablegeo.json', 'wb')
+        self.file.write("[")
 
     def process_item(self, item, spider):
-        line = json.dumps(dict(item)) + "\n"
+        line = json.dumps(dict(item)) + ",\n"
         self.file.write(line)
         return item
+
+    def close_spider(self):
+        self.file.write("]")
+        self.file.close()
 
 class MediaStatementsDB(object):
 
