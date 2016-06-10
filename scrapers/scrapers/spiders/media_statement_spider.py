@@ -26,7 +26,6 @@ class WAMediaStatementSpider(scrapy.Spider):
         # Get next page xpath(//ul/li/a/text().extract() == "Next"
         # Might just have to use the url + QualitemContentRollupPage={page_num}&
         for links in response.xpath('//ul'):
-            print links
             print "Links {}".format(links.xpath('li/a/text()').extract())
             if links.xpath('li/a/text()').extract() == u"Next":
                 follow_link = links.xpath('li/a/@href')[0].extract()
@@ -45,7 +44,7 @@ class WAMediaStatementSpider(scrapy.Spider):
             locations = set([" ".join(e) for e in text.entities if e.tag == u'I-LOC'])
             geocoded = []
             for loc in locations:
-                if loc not in ["WA", "Western Australia"]:
+                if loc not in ["WA", "Western Australia", "Australia"]:
                     g = geocoder.google(loc, components="country:AU")
                     accuracy = g.accuracy
                     address = g.address
