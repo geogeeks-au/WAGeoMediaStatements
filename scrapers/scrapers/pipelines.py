@@ -6,8 +6,23 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 from scrapy.exceptions import DropItem
 import psycopg2
+import json
 
-class MediaStatements(object):
+
+class JsonMediaStatementsPipe(object):
+    """
+    This will be our gecoded stuff
+    """
+
+    def __init__(self):
+        self.file = open('mstablegeo.json', 'wb')
+
+    def process_item(self, item, spider):
+        line = json.dumps(dict(item)) + "\n"
+        self.file.write(line)
+        return item
+
+class MediaStatementsDB(object):
 
     collection_name = 'mediastatements'
 
