@@ -7,16 +7,11 @@
 
 from scrapy import Item, Field
 
-
-class MediaStatementRow(Item):
-    # define the fields for your item here like:
+class MediaStatement(Item):
     date = Field()
     minister = Field()
     portfolio = Field()
     title = Field()
     link = Field()
-
-class MediaStatement(Item):
-    title = Field()
     statement = Field()
     locations = Field()

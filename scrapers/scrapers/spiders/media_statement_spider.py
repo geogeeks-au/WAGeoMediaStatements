@@ -1,5 +1,5 @@
 import scrapy
-from ..items import MediaStatementRow, MediaStatement
+from ..items import MediaStatement
 from polyglot.text import Text
 import geocoder
 import logging
@@ -27,11 +27,8 @@ class WAMediaStatementSpider(scrapy.Spider):
             # try looking up using google
             if loc not in ["WA", "Western Australia", "Australia"]:
                 g = geocoder.google(loc, components="country:AU|administrative_area:WA")
-                accuracy = g.accuracy
-                address = g.address
-                geom = g.geometry
                 # Todo: Probably create this as a named tuple or something
-                geoloc = (accuracy, address, geom)
+                geoloc = g.geojson
                 geolocs.append(geoloc)
                 self.geocoded[loc] = geoloc
         return geolocs
@@ -42,13 +39,17 @@ class WAMediaStatementSpider(scrapy.Spider):
             # Still might need to skip the top
             if not len(table_row):
                 continue
-            media_item = MediaStatementRow()
+            media_item = MediaStatement()
             media_item['date'], media_item['minister'], media_item['portfolio'] = table_row
 
-            media_item['title'] = row.xpath('td/a/text()').extract()
+            media_item['title'] = row.xpath('td/a/text()').extract()[0]
             logging.info(media_item['title'])
-            media_item['link'] = row.xpath('td/a/@href').extract()[0]
-            yield scrapy.Request(response.urljoin(media_item['link']), callback=self.parse_media_statement)
+            media_item['link'] = response.urljoin(row.xpath('td/a/@href').extract()[0])
+            request = scrapy.Request(media_item['link'], callback=self.parse_media_statement)
+            request.meta['item'] = media_item
+            yield request
+            # Probabley check this was ok parsed_statement
+
 
         # Get next page xpath(//ul/li/a/text().extract() == "Next"
         # Might just have to use the url + QualitemContentRollupPage={page_num}&
@@ -60,19 +61,18 @@ class WAMediaStatementSpider(scrapy.Spider):
         #        print follow_url
 
     def parse_media_statement(self, response):
+        media_item = response.meta['item']
         for sel in response.xpath('//body'):
-            ms = MediaStatement()
-            ms['title'] = sel.xpath('//h1/text()').extract()
+            heading = sel.xpath('//h1/text()').extract()[0]
             # drop u'\xa0' and join on stuff
             stuff = sel.xpath('//div[@class="ms-rtestate-field"]/p/text()').extract()
-            ms['statement'] = " ".join([x for x in stuff if x != u'\xa0'])
-            logging.info("Processing statement {}".format(ms['title']))
-            text = Text(ms['statement'])
+            media_item['statement'] = " ".join([x for x in stuff if x != u'\xa0'])
+            logging.info("Processing statement {}".format(heading))
+            text = Text(media_item['statement'])
             # For all I-LOC make an attempt to geocode but restrict to WA
             locations = set([" ".join(e) for e in text.entities if e.tag == u'I-LOC'])
             # It's never to soon to optimize.
             # To save repeats lets store these in a dictionary
-            ms['locations'] = self.geocode_locations(locations)
-            yield ms
-
+            media_item['locations'] = self.geocode_locations(locations)
+            yield media_item
 

@@ -9,22 +9,32 @@ import psycopg2
 import json
 
 
-class JsonMediaStatementsPipe(object):
+class GeoJsonMediaStatementsPipe(object):
     """
     This will be our gecoded stuff
     """
 
     def __init__(self):
         self.file = open('mstablegeo.json', 'wb')
-        self.file.write("[")
+        self.fields = ['date',
+                       'minister',
+                       'portfolio',
+                       'title',
+                       'link',
+                       'statement']
+
+    def open_spider(self, spider):
+        self.geoj = {'type': 'FeatureCollection', 'features': []}
 
     def process_item(self, item, spider):
-        line = json.dumps(dict(item)) + ",\n"
-        self.file.write(line)
+        for location in item['locations']:
+            for field in self.fields:
+                location['properties'][field] = item[field]
+            self.geoj['features'].append(location)
         return item
 
-    def close_spider(self):
-        self.file.write("]")
+    def close_spider(self, spider):
+        self.file.write(json.dumps(self.geoj))
         self.file.close()
 
 class MediaStatementsDB(object):
