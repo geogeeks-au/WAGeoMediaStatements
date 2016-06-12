@@ -15,7 +15,7 @@ class GeoJsonMediaStatementsPipe(object):
     """
 
     def __init__(self):
-        self.file = open('mstablegeo.json', 'wb')
+        self.file = open('../../../mstablegeo.json', 'wb')
         self.fields = ['date',
                        'minister',
                        'portfolio',
