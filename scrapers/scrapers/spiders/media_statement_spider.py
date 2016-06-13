@@ -9,8 +9,13 @@ class WAMediaStatementSpider(scrapy.Spider):
     allowed_domains = ["mediastatements.wa.gov.au"]
     start_urls = [
         "https://www.mediastatements.wa.gov.au/Pages/Default.aspx",
+        "https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Carpenter-Labor-Government.aspx",
+        "https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Gallop-Labor-Government.aspx",
+        "https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Court-Coalition-Government.aspx",
+        "https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Lawrence-Labor-Government.aspx"
     ]
     geocoded = {}
+    page_num = 1
 
     def geocode_locations(self, locations):
         """
@@ -34,6 +39,8 @@ class WAMediaStatementSpider(scrapy.Spider):
         return geolocs
 
     def parse(self, response):
+        if not response:
+            return
         for row in response.xpath('//table/tr'):
             table_row = row.xpath('td/p/text()').extract()
             # Still might need to skip the top
@@ -50,8 +57,11 @@ class WAMediaStatementSpider(scrapy.Spider):
             yield request
             # Probabley check this was ok parsed_statement
 
+        self.page_num += 1
+        url = response.urljoin("?QualitemContentRollupPage={page_num}&".format(self.page_num))
+        yield scrapy.Request(url, callback=self.parse)
 
-        # Get next page xpath(//ul/li/a/text().extract() == "Next"
+        # Get next page xpath(//ul//li//a//text().extract() == "Next"
         # Might just have to use the url + QualitemContentRollupPage={page_num}&
         #for links in response.xpath('//ul'):
         #    print "Links {}".format(links.xpath('li/a/text()').extract())
