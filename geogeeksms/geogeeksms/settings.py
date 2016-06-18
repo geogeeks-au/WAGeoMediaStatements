@@ -79,8 +79,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': 'wageomedia',
-	'USER': 'geogeek',
-	'PASSWORD': 'dymaxion4lyfe'
+	    'USER': 'geogeek',
+	    'PASSWORD': 'dymaxion4lyfe',
+        'PORT': 5433,
+        'HOST': 'localhost'
     }
 }
 

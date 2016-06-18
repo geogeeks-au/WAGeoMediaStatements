@@ -7,6 +7,9 @@
 from scrapy.exceptions import DropItem
 import psycopg2
 import json
+from django.contrib.gis.geos import GEOSGeometry
+from geogeeksms.geostatements import models
+
 
 
 class GeoJsonMediaStatementsPipe(object):
@@ -48,15 +51,18 @@ class MediaStatementsDB(object):
         """
         We need to use self.db to write stuff into our database
         We also need to set up our data structures.
+        #if item['id'] in self.ids_seen:
+        #    raise DropItem("Duplicate item found: %s" % item)
         :param item:
         :param spider:
         :return:
         """
-        if item['id'] in self.ids_seen:
-            raise DropItem("Duplicate item found: %s" % item)
-        else:
-            self.ids_seen.add(item['id'])
-            return item
+        for location in item['locations']:
+            geom = GEOSGemetry(location)
+            gdata = location
+            location = location['properties']['location']
+            s1 = StatementLocation(location, gdata, geom)
+            print s1
 
 
     @classmethod
