@@ -5,11 +5,11 @@ from django.db import models
 # Create your models here.
 class StatementLocation(models.Model):
 	location_tag = models.CharField(max_length=200)
-	geocoded_data = models.JsonField()
+	geocoded_data = models.JSONField()
 	geom = models.GeometryField()
 
 class GeoStatement(models.Model):
 	link = models.UrlField()
 	statement = models.TextField()
-	json = models.JsonField()
+	json = models.JSONField()
 	location = models.ManyToManyField(StatementLocation)
