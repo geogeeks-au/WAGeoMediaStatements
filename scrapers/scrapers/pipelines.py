@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # Define your item pipelines here
+# Consider moving Geocoding stuff out of pipeline for testing
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
@@ -29,6 +30,17 @@ class MediaStatementsDB(object):
 
     def __init__(self):
         self.ids_seen = set()
+
+    def find_locations_polyglot(self, statement):
+        """
+        Uses PolyGLot NLP to find Named entities and passes back a set of locations found
+        :param statement:
+        :return:
+        """
+        # Probably should be using e.start and e.end for entities so we know where they are in statement
+        text = Text(statement)
+        # For all I-LOC make an attempt to geocode but restrict to WA
+        return set([" ".join(e) for e in text.entities if e.tag == u'I-LOC'])
 
     def geocode_locations(self, locations):
         """
@@ -63,12 +75,11 @@ class MediaStatementsDB(object):
         """
         db_locs = []
         logging.info("Processing statement {}".format(item['title']))
-        text = Text(item['statement'])
-        # For all I-LOC make an attempt to geocode but restrict to WA
-        locations = set([" ".join(e) for e in text.entities if e.tag == u'I-LOC'])
+        # I think we can get positions of location in Statement which might be good to save
+
         # It's never to soon to optimize.
         # To save repeats lets store these in a dictionary
-        item['locations'] = self.geocode_locations(locations)
+        item['locations'] = self.geocode_locations(self.find_locations_polyglot(item['statement']))
         for location in item['locations']:
             geom = GEOSGeometry(location)
             gdata = location
