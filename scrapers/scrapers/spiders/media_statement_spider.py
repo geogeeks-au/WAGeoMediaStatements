@@ -1,7 +1,5 @@
 import scrapy
 from ..items import MediaStatement
-from polyglot.text import Text
-import geocoder
 import logging
 
 class WAMediaStatementSpider(scrapy.Spider):
@@ -14,29 +12,9 @@ class WAMediaStatementSpider(scrapy.Spider):
         "https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Court-Coalition-Government.aspx",
         "https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Lawrence-Labor-Government.aspx"
     ]
-    geocoded = {}
     page_num = 1
 
-    def geocode_locations(self, locations):
-        """
-        Attempt to geocode each location in locations using Google
-        :param locations:
-        :return: A list of tuples of information we were able to geocode
-        """
-        geolocs = []
-        for loc in locations:
-            # Check cache
-            if loc in self.geocoded:
-                geolocs.append(self.geocoded[loc])
-                continue
-            # try looking up using google
-            if loc not in ["WA", "Western Australia", "Australia"]:
-                g = geocoder.google(loc, components="country:AU|administrative_area:WA")
-                # Todo: Probably create this as a named tuple or something
-                geoloc = g.geojson
-                geolocs.append(geoloc)
-                self.geocoded[loc] = geoloc
-        return geolocs
+
 
     def parse(self, response):
         if not response:
@@ -73,16 +51,9 @@ class WAMediaStatementSpider(scrapy.Spider):
     def parse_media_statement(self, response):
         media_item = response.meta['item']
         for sel in response.xpath('//body'):
-            heading = sel.xpath('//h1/text()').extract()[0]
+            # heading = sel.xpath('//h1/text()').extract()[0]
             # drop u'\xa0' and join on stuff
             stuff = sel.xpath('//div[@class="ms-rtestate-field"]/p/text()').extract()
             media_item['statement'] = " ".join([x for x in stuff if x != u'\xa0'])
-            logging.info("Processing statement {}".format(heading))
-            text = Text(media_item['statement'])
-            # For all I-LOC make an attempt to geocode but restrict to WA
-            locations = set([" ".join(e) for e in text.entities if e.tag == u'I-LOC'])
-            # It's never to soon to optimize.
-            # To save repeats lets store these in a dictionary
-            media_item['locations'] = self.geocode_locations(locations)
             yield media_item
 

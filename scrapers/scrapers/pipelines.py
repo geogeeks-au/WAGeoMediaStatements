@@ -5,47 +5,51 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 from scrapy.exceptions import DropItem
-import psycopg2
 import json
 from django.contrib.gis.geos import GEOSGeometry
-from geogeeksms.geostatements import models
+from polyglot.text import Text
+import geocoder
+import os
+import sys
+import django
+import logging
 
+# Can't remember if I need to use __file__ here
+sys.path.append("../../../geogeeksms/")
+os.environ["DJANGO_SETTINGS_MODULE"] = "geogeeksms.settings"
+django.setup()
 
+from geogeeksms.geostatements.models import *
 
-class GeoJsonMediaStatementsPipe(object):
-    """
-    This will be our gecoded stuff
-    """
-
-    def __init__(self):
-        self.file = open('../../../mstablegeo.json', 'wb')
-        self.fields = ['date',
-                       'minister',
-                       'portfolio',
-                       'title',
-                       'link',
-                       'statement']
-
-    def open_spider(self, spider):
-        self.geoj = {'type': 'FeatureCollection', 'features': []}
-
-    def process_item(self, item, spider):
-        for location in item['locations']:
-            for field in self.fields:
-                location['properties'][field] = item[field]
-            self.geoj['features'].append(location)
-        return item
-
-    def close_spider(self, spider):
-        self.file.write(json.dumps(self.geoj))
-        self.file.close()
 
 class MediaStatementsDB(object):
 
     collection_name = 'mediastatements'
+    geocoded = {}
 
     def __init__(self, postgres_uri, postgres_db, postges_user, postgres_pass ):
         self.ids_seen = set()
+
+    def geocode_locations(self, locations):
+        """
+        Attempt to geocode each location in locations using Google
+        :param locations:
+        :return: A list of tuples of information we were able to geocode
+        """
+        geolocs = []
+        for loc in locations:
+            # Check cache
+            if loc in self.geocoded:
+                geolocs.append(self.geocoded[loc])
+                continue
+            # try looking up using google
+            if loc not in ["WA", "Western Australia", "Australia"]:
+                g = geocoder.google(loc, components="country:AU|administrative_area:WA")
+                # Todo: Probably create this as a named tuple or something
+                geoloc = g.geojson
+                geolocs.append(geoloc)
+                self.geocoded[loc] = geoloc
+        return geolocs
 
     def process_item(self, item, spider):
         """
@@ -57,34 +61,23 @@ class MediaStatementsDB(object):
         :param spider:
         :return:
         """
+        db_locs = []
+        logging.info("Processing statement {}".format(item['title']))
+        text = Text(item['statement'])
+        # For all I-LOC make an attempt to geocode but restrict to WA
+        locations = set([" ".join(e) for e in text.entities if e.tag == u'I-LOC'])
+        # It's never to soon to optimize.
+        # To save repeats lets store these in a dictionary
+        item['locations'] = self.geocode_locations(locations)
         for location in item['locations']:
-            geom = GEOSGemetry(location)
+            geom = GEOSGeometry(location)
             gdata = location
             location = location['properties']['location']
-            s1 = StatementLocation(location, gdata, geom)
-            print s1
-
-
-    @classmethod
-    def from_crawler(cls, crawler):
-        return cls(
-            postgres_host=crawler.settings.get('POSTGRES_URI'),
-            postgres_db=crawler.settings.get('POSTGRES_DB'),
-            postges_user=crawler.settings.get('POSTGRES_USER'),
-            postges_pass=crawler.settings.get('POSTGRES_PASS'),
-            postges_port=crawler.settings.get('POSTGRES_PORT'),
-        )
-
-
-    def open_spider(self, spider):
-        self.client= psycopg2.connect(database=self.postgres_db,
-                                      user=self.postgres_user,
-                                      host=self.postgres_host,
-                                      port=self.postgres_port,
-                                      password=self.postgres_pass)
-        self.db = self.client.cursor()
-
-
-    def close_spider(self, spider):
-        self.db.close()
-        self.client.close()
+            sl, created = StatementLocation.objects.get_or_create(location, gdata, geom)
+            db_locs.append(sl)
+        link = item['link']
+        statement = item['statement']
+        statement_date = item['date']
+        data = {'minister': item['minister'], 'portfolio': item['portfolio']}
+        gs = GeoStatement.objects.get_or_create(link, statement, statement_date, data)
+        gs.add(db_locs)
