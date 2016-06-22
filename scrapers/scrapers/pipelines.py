@@ -27,7 +27,7 @@ class MediaStatementsDB(object):
     collection_name = 'mediastatements'
     geocoded = {}
 
-    def __init__(self, postgres_uri, postgres_db, postges_user, postgres_pass ):
+    def __init__(self):
         self.ids_seen = set()
 
     def geocode_locations(self, locations):
