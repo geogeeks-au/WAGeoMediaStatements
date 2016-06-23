@@ -36,7 +36,7 @@ class WAMediaStatementSpider(scrapy.Spider):
             # Probabley check this was ok parsed_statement
 
         self.page_num += 1
-        url = response.urljoin("?QualitemContentRollupPage={page_num}&".format(self.page_num))
+        url = response.urljoin("?QualitemContentRollupPage={page_num}&".format(page_name=self.page_num))
         yield scrapy.Request(url, callback=self.parse)
 
         # Get next page xpath(//ul//li//a//text().extract() == "Next"
