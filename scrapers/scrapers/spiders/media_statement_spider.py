@@ -1,6 +1,7 @@
 import scrapy
 from ..items import MediaStatement
 import logging
+import requests
 
 class WAMediaStatementSpider(scrapy.Spider):
     name = "wams"
@@ -19,7 +20,8 @@ class WAMediaStatementSpider(scrapy.Spider):
     def parse(self, response):
         if not response:
             return
-        for row in response.xpath('//table/tr'):
+        table = response.xpath('//table/tr')
+        for row in table:
             table_row = row.xpath('td/p/text()').extract()
             # Still might need to skip the top
             if not len(table_row):
@@ -36,7 +38,11 @@ class WAMediaStatementSpider(scrapy.Spider):
             # Probabley check this was ok parsed_statement
 
         self.page_num += 1
-        url = response.urljoin("?QualitemContentRollupPage={page_num}&".format(page_name=self.page_num))
+        url = response.urljoin("?QualitemContentRollupPage={page_num}&".format(page_num=self.page_num))
+        r = requests.get(url)
+        tr = scrapy.http.TextResponse(r.text, r.encoding)
+        if r.ok and tr.xpath('//table/tr') == table:
+            return
         yield scrapy.Request(url, callback=self.parse)
 
         # Get next page xpath(//ul//li//a//text().extract() == "Next"
@@ -54,6 +60,8 @@ class WAMediaStatementSpider(scrapy.Spider):
             # heading = sel.xpath('//h1/text()').extract()[0]
             # drop u'\xa0' and join on stuff
             stuff = sel.xpath('//div[@class="ms-rtestate-field"]/p/text()').extract()
+            if not stuff:
+                stuff = sel.xpath('//div[@class="ms-rtestate-field"]/font/text()').extract()
             media_item['statement'] = " ".join([x for x in stuff if x != u'\xa0'])
             yield media_item
 
