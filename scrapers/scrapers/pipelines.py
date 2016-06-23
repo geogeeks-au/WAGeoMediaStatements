@@ -14,6 +14,7 @@ import os
 import sys
 import django
 import logging
+from django.utils.dateparse import parse_date
 
 # Can't remember if I need to use __file__ here
 sys.path.append(os.path.join(os.path.dirname(__file__), "../../geogeeksms/"))
@@ -99,6 +100,6 @@ class MediaStatementsDB(object):
         gs = GeoStatement.objects.get_or_create(
             link=link,
             statement=statement,
-            statement_date=statement_date,
+            statement_date=parse_date(statement_date),
             json=data)
         gs.location.add(db_locs)
