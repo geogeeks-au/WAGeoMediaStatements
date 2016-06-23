@@ -24,7 +24,6 @@ from geostatements.models import *
 
 
 class MediaStatementsDB(object):
-
     collection_name = 'mediastatements'
     geocoded = {}
 
@@ -83,12 +82,23 @@ class MediaStatementsDB(object):
         for location in item['locations']:
             geom = GEOSGeometry(location)
             gdata = location
-            location = location['properties']['location']
-            sl, created = StatementLocation.objects.get_or_create(location, gdata, geom)
+            location_tag = location['properties']['location']
+            sl, created = StatementLocation.objects.get_or_create(
+                location_tag=location_tag,
+                geocoded_data=gdata,
+                geom=geom,
+                parse_lib="polyglot",
+                geo_lib="geocoder"
+
+            )
             db_locs.append(sl)
         link = item['link']
         statement = item['statement']
         statement_date = item['date']
         data = {'minister': item['minister'], 'portfolio': item['portfolio']}
-        gs = GeoStatement.objects.get_or_create(link, statement, statement_date, data)
-        gs.add(db_locs)
+        gs = GeoStatement.objects.get_or_create(
+            link=link,
+            statement=statement,
+            statement_date=statement_date,
+            json=data)
+        gs.location.add(db_locs)
