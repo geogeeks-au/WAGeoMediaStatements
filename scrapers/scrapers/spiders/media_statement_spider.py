@@ -1,7 +1,6 @@
 import scrapy
 from ..items import MediaStatement
 import logging
-import requests
 
 class WAMediaStatementSpider(scrapy.Spider):
     name = "wams"
@@ -15,7 +14,8 @@ class WAMediaStatementSpider(scrapy.Spider):
     ]
     page_num = 1
 
-
+    def get_table(self,response):
+        return response.xpath('//table/tr')
 
     def parse(self, response):
         if not response:
@@ -39,9 +39,7 @@ class WAMediaStatementSpider(scrapy.Spider):
 
         self.page_num += 1
         url = response.urljoin("?QualitemContentRollupPage={page_num}&".format(page_num=self.page_num))
-        r = requests.get(url)
-        tr = scrapy.http.TextResponse(r.text, r.encoding)
-        if r.ok and tr.xpath('//table/tr') == table:
+        if scrapy.Request(url, callback=self.get_table) == table:
             return
         yield scrapy.Request(url, callback=self.parse)
 
