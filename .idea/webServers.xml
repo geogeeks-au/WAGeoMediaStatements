@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bcf7e39a-40ce-4df4-a241-248ed1636166" name="pg02" url="http://192.241.132.250">
+        <fileTransfer host="192.241.132.250" port="22" rootFolder="/home/geomedia/WAGeoMediaStatements" accessType="SFTP" username="geomedia">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
