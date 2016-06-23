@@ -60,7 +60,7 @@ class WAMediaStatementSpider(scrapy.Spider):
             stuff = sel.xpath('//div[@class="ms-rtestate-field"]/p/text()').extract()
             if not stuff:
                 logging.info("Trying Font check")
-                stuff = sel.xpath('//div[@class="ms-rtestate-field"]/font/text()').extract()
+                stuff = sel.xpath('//div/font/text()').extract()
             media_item['statement'] = " ".join([x for x in stuff if x != u'\xa0'])
             yield media_item
 
