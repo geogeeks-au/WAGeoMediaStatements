@@ -16,7 +16,7 @@ import django
 import logging
 
 # Can't remember if I need to use __file__ here
-sys.path.append("../../geogeeksms/")
+sys.path.append(os.path.join(os.path.dirname(__file__), "../../geogeeksms/"))
 os.environ["DJANGO_SETTINGS_MODULE"] = "geogeeksms.settings"
 django.setup()
 
