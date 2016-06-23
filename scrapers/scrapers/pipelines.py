@@ -20,7 +20,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), "../../geogeeksms/"))
 os.environ["DJANGO_SETTINGS_MODULE"] = "geogeeksms.settings"
 django.setup()
 
-from geogeeksms.geostatements.models import *
+from geostatements.models import *
 
 
 class MediaStatementsDB(object):
