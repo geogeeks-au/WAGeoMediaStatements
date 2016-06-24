@@ -1,6 +1,7 @@
 import scrapy
 from ..items import MediaStatement
 import logging
+import sys
 
 class WAMediaStatementSpider(scrapy.Spider):
     name = "wams"
@@ -63,7 +64,7 @@ class WAMediaStatementSpider(scrapy.Spider):
                 stuff = sel.xpath('//div/font/text()').extract()
             if not stuff:
                 logging.error("Failed to get a statement %s" % media_item['title'])
-                return
+                sys.exit(1)
             media_item['statement'] = " ".join([x for x in stuff if x != u'\xa0'])
             yield media_item
 

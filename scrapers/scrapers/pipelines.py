@@ -83,22 +83,29 @@ class MediaStatementsDB(object):
             geom = GEOSGeometry(location.wkt)
             gdata = location.json
             location_tag = location['properties']['location']
-            sl, created = StatementLocation.objects.get_or_create(
-                location_tag=location_tag,
-                geocoded_data=gdata,
-                geom=geom,
-                parse_lib="polyglot",
-                geo_lib="geocoder"
-
-            )
+            try:
+                sl, created = StatementLocation.objects.get_or_create(
+                    location_tag=location_tag,
+                    geocoded_data=gdata,
+                    geom=geom,
+                    parse_lib="polyglot",
+                    geo_lib="geocoder"
+                )
+            except:
+                logging.error("Couldn't write to db")
+                sys.exit(1)
             db_locs.append(sl)
         link = item['link']
         statement = item['statement']
         statement_date = item['date']
         data = {'minister': item['minister'], 'portfolio': item['portfolio']}
-        gs = GeoStatement.objects.get_or_create(
-            link=link,
-            statement=statement,
-            statement_date=parse_date(statement_date),
-            json=data)
-        gs.location.add(db_locs)
+        try:
+            gs = GeoStatement.objects.get_or_create(
+                link=link,
+                statement=statement,
+                statement_date=parse_date(statement_date),
+                json=data)
+            gs.location.add(db_locs)
+        except:
+            logging.error("Failed to write geostatement")
+            sys.exit(1)
