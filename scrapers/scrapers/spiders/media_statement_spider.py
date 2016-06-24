@@ -61,6 +61,9 @@ class WAMediaStatementSpider(scrapy.Spider):
             if not stuff:
                 logging.info("Trying Font check")
                 stuff = sel.xpath('//div/font/text()').extract()
+            if not stuff:
+                logging.error("Failed to get a statement %s" % media_item['title'])
+                return
             media_item['statement'] = " ".join([x for x in stuff if x != u'\xa0'])
             yield media_item
 

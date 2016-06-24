@@ -58,9 +58,8 @@ class MediaStatementsDB(object):
             if loc not in ["WA", "Western Australia", "Australia"]:
                 g = geocoder.google(loc, components="country:AU|administrative_area:WA")
                 # Todo: Probably create this as a named tuple or something
-                geoloc = g.geojson
-                geolocs.append(geoloc)
-                self.geocoded[loc] = geoloc
+                geolocs.append(g)
+                self.geocoded[loc] = g
         return geolocs
 
     def process_item(self, item, spider):
@@ -81,8 +80,8 @@ class MediaStatementsDB(object):
         # To save repeats lets store these in a dictionary
         item['locations'] = self.geocode_locations(self.find_locations_polyglot(item['statement']))
         for location in item['locations']:
-            geom = GEOSGeometry(location)
-            gdata = location
+            geom = GEOSGeometry(location.wkt)
+            gdata = location.json
             location_tag = location['properties']['location']
             sl, created = StatementLocation.objects.get_or_create(
                 location_tag=location_tag,
