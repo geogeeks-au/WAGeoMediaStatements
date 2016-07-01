@@ -78,10 +78,12 @@ class MediaStatementsDB(object):
 
         # It's never to soon to optimize.
         # To save repeats lets store these in a dictionary
+        print(item)
         item['locations'] = self.geocode_locations(self.find_locations_polyglot(item['statement']))
         for location in item['locations']:
             geom = GEOSGeometry(location.wkt)
             gdata = location.json
+            # BOOOOOOOO HERE
             location_tag = location['properties']['location']
             try:
                 sl, created = StatementLocation.objects.get_or_create(

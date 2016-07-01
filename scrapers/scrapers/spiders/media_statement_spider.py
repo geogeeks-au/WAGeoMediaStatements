@@ -19,6 +19,13 @@ class WAMediaStatementSpider(scrapy.Spider):
         return response.xpath('//table/tr')
 
     def parse(self, response):
+        """
+        Parses a the media statements page.
+        @url https://www.mediastatements.wa.gov.au/Pages/Default.aspx
+        @returns item 1 100
+        @returns requests 1
+        @scrapes date minister portfolio title statement
+        """
         if not response:
             return
         table = response.xpath('//table/tr')
