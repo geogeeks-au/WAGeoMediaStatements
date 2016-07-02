@@ -14,7 +14,7 @@ import os
 import sys
 import django
 import logging
-from django.utils.dateparse import parse_date
+import datetime
 
 # Can't remember if I need to use __file__ here
 sys.path.append(os.path.join(os.path.dirname(__file__), "../../geogeeksms/"))
@@ -40,7 +40,14 @@ class MediaStatementsDB(object):
         # Probably should be using e.start and e.end for entities so we know where they are in statement
         text = Text(statement)
         # For all I-LOC make an attempt to geocode but restrict to WA
-        return set([" ".join(e) for e in text.entities if e.tag == u'I-LOC'])
+        # We should attempt to record the span of each tag
+        locations = []
+        spans = []
+        for e in text.entities:
+            if e.tag == u'I-LOC':
+                locations.append(" ".join(e))
+                spans.append((e.start, e.end))
+        return locations, spans
 
     def geocode_locations(self, locations):
         """
@@ -78,24 +85,29 @@ class MediaStatementsDB(object):
 
         # It's never to soon to optimize.
         # To save repeats lets store these in a dictionary
-        print(item)
-        item['locations'] = self.geocode_locations(self.find_locations_polyglot(item['statement']))
-        for location in item['locations']:
-            geom = GEOSGeometry(location.wkt)
-            gdata = location.json
-            # BOOOOOOOO HERE
-            location_tag = location['properties']['location']
-            try:
-                sl, created = StatementLocation.objects.get_or_create(
-                    location_tag=location_tag,
-                    geocoded_data=gdata,
-                    geom=geom,
-                    parse_lib="polyglot",
-                    geo_lib="geocoder"
-                )
-            except:
-                logging.error("Couldn't write to db")
-                sys.exit(1)
+        # Find ids if not create
+        polyglot_locations, location_spans = self.find_locations_polyglot(item['statement'])
+        for pl_loc in polyglot_locations:
+            qsl = StatementLocation.objects.filter(location_tag=pl_loc)
+            # Geocoded location exists in database
+            if qsl:
+                sl = qsl[0]
+            else:
+                geocoded_loc = self.geocode_locations([pl_loc])
+                geom = GEOSGeometry(location.wkt)
+                gdata = location.json
+
+                location_tag = location.json['location']
+                try:
+                    sl, created = StatementLocation.objects.get_or_create(
+                        location_tag=location_tag,
+                        geocoded_data=gdata,
+                        geom=geom,
+                        parse_lib="polyglot",
+                        geo_lib="geocoder"
+                    )
+                except:
+                    logging.error("Couldn't write to db")
             db_locs.append(sl)
         link = item['link']
         statement = item['statement']
@@ -105,9 +117,8 @@ class MediaStatementsDB(object):
             gs = GeoStatement.objects.get_or_create(
                 link=link,
                 statement=statement,
-                statement_date=parse_date(statement_date),
+                statement_date=datetime.datetime.strptime(statement_date, "%d/%m/%Y"),
                 json=data)
             gs.location.add(db_locs)
         except:
-            logging.error("Failed to write geostatement")
-            sys.exit(1)
+            logging.error("Failed to write geostatement %s" % item['title'])

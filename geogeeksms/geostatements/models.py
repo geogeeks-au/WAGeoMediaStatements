@@ -26,3 +26,13 @@ class GeoStatement(models.Model):
     statement_date = models.DateField()
     json = JSONField()
     location = models.ManyToManyField(StatementLocation)
+
+class LocationSpan(models.Model):
+    """
+    Model used for keeping track of a statement location's postitions
+    in our media statement's. Probably useful for highlighting stuff,
+    later.
+    """
+    location = models.ForeignKey(StatementLocation)
+    start_pos = models.IntegerField()
+    end_pos = models.IntegerField()
