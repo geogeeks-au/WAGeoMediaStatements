@@ -71,8 +71,7 @@ class MediaStatementsDB(object):
 
     def process_item(self, item, spider):
         """
-        We need to use self.db to write stuff into our database
-        We also need to set up our data structures.
+        Using Django to write our Statement, Locations etc
         #if item['id'] in self.ids_seen:
         #    raise DropItem("Duplicate item found: %s" % item)
         :param item:
