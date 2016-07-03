@@ -62,6 +62,6 @@ class Gazetteer(models.Model):
     place_id = models.IntegerField()
     variant_name = models.CharField(max_length=138)
     postcode = models.IntegerField()
-    geom = models.PointField(srid=3112)
+    geom = models.PointField(srid=4236)
 
 
