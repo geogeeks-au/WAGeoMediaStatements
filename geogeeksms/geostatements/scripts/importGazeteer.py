@@ -1,15 +1,15 @@
 from django.contrib.gis.gdal import DataSource
-from django.contrib.gis.utils import LayerMapping
 import zipfile
 import os
 import django
 import sys
 
-sys.path.append(os.path.join(os.path.dirname(__file__), "../../geogeeksms/"))
+sys.path.append(os.path.join(os.path.dirname(__file__), "../../../geogeeksms/"))
 os.environ["DJANGO_SETTINGS_MODULE"] = "geogeeksms.settings"
 django.setup()
 
 from geostatements.models import Gazetteer
+from django.contrib.gis.utils import LayerMapping
 
 z = zipfile.ZipFile('GazetteerOfAustralia2012Package.zip', 'r')
 f = z.extract('Gazetteer2012_GML.zip')
