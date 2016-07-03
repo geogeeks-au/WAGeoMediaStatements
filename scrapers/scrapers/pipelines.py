@@ -49,7 +49,7 @@ class MediaStatementsDB(object):
         locations = []
         spans = []
         for e in text.entities:
-            if e.tag == u'I-LOC':
+            if e.tag == u'I-LOC' or e.tag == u'I-ORG':
                 locations.append(" ".join(e))
                 spans.append((e.start, e.end))
         return locations, spans

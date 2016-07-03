@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 from django.contrib.postgres.fields import JSONField
-
+from django.utils.encoding import smart_text
 from django.contrib.gis.db import models
 
 parse_lib = [
@@ -19,6 +19,9 @@ class StatementLocation(models.Model):
     parse_lib = models.CharField(max_length=25, choices=parse_lib)
     geo_lib = models.CharField(max_length=25, choices=geo_lib)
 
+    def __str__(self):
+        return smart_text(self.location_tag)
+
 
 class LocationSpan(models.Model):
     """
@@ -30,6 +33,8 @@ class LocationSpan(models.Model):
     start_pos = models.IntegerField()
     end_pos = models.IntegerField()
 
+    def __str__(self):
+        return smart_text(self.location.location_tag)
 
 class GeoStatement(models.Model):
     link = models.URLField()
@@ -38,6 +43,9 @@ class GeoStatement(models.Model):
     json = JSONField()
     location = models.ManyToManyField(StatementLocation)
     spans = models.ManyToManyField(LocationSpan)
+
+    def __str__(self):
+        return smart_text(self.link)
 
 class Gazetteer(models.Model):
     gml_id = models.CharField(max_length=50)
@@ -64,4 +72,5 @@ class Gazetteer(models.Model):
     postcode = models.IntegerField()
     geom = models.PointField(srid=4236)
 
-
+    def __str__(self):
+        return smart_text("%s, %s" % (self.name, self.state_id))
