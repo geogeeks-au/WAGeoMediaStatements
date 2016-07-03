@@ -40,7 +40,7 @@ class GeoStatement(models.Model):
     spans = models.ManyToManyField(LocationSpan)
 
 class Gazetteer(models.Model):
-    gml_id = models.CharField(max_length=0)
+    gml_id = models.CharField(max_length=15)
     objectid = models.IntegerField()
     record_id = models.CharField(max_length=11)
     name = models.CharField(max_length=99)
