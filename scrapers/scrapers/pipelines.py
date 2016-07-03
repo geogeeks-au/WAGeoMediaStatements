@@ -34,6 +34,11 @@ class MediaStatementsDB(object):
     def find_locations_polyglot(self, statement):
         """
         Uses PolyGLot NLP to find Named entities and passes back a set of locations found
+        TODO: I think we need to expand this to check if extra words possibly.
+        Return a better match.
+        i.e Leach -> Highway, Bull-> Creek Railway Station,
+        Main -> Roads Western Australia, Kwinanna Freeway.
+        Try to check Gazeteer and database first, use googlemaps as fallback.
         :param statement:
         :return:
         """
