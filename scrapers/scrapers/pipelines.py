@@ -215,7 +215,7 @@ class MediaStatementsDB(object):
                 statement_date=datetime.datetime.strptime(statement_date, "%d/%m/%Y"),
                 json=data)
         if db_locs:
-            gs.location.add(db_locs)
+            gs.location.add(*db_locs)
         if mins:
             gs.ministers.add(mins)
         #logging.error("Failed to write geostatement %s" % item['title'])
