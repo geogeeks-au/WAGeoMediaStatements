@@ -69,7 +69,7 @@ class MediaStatementsDB(object):
         :param string:
         :return:
         """
-        string = string.strip("“. '”")
+        string = string.strip(u"“. '”")
         return string
 
 
