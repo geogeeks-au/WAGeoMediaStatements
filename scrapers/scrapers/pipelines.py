@@ -181,7 +181,11 @@ class MediaStatementsDB(object):
             if qsl:
                 sl = qsl[0]
             else:
-                location = self.geocode_locations([pl_loc])[0]
+                try:
+                    location = self.geocode_locations([pl_loc])[0]
+                except IndexError:
+                    logging.warn("Couldn't geocode %s" % pl_loc)
+                    continue
                 geom = GEOSGeometry(location.wkt)
                 gdata = location.json
 
@@ -205,13 +209,13 @@ class MediaStatementsDB(object):
                                                           item['minister'].split(";")
                                                           )
                                         ).filter(current_member=True)
-        try:
-            gs, created = GeoStatement.objects.get_or_create(
+        gs, created = GeoStatement.objects.get_or_create(
                 link=link,
                 statement=statement,
                 statement_date=datetime.datetime.strptime(statement_date, "%d/%m/%Y"),
                 json=data)
+        if db_locs:
             gs.location.add(db_locs)
+        if mins:
             gs.ministers.add(mins)
-        except:
-            logging.error("Failed to write geostatement %s" % item['title'])
+        #logging.error("Failed to write geostatement %s" % item['title'])
