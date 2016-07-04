@@ -7,6 +7,7 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 # Have a look at https://spacy.io/
 # TODO: Use SyntaxNet and tensorflow to pull out locations
+from __future__ import unicode_literals
 from scrapy.exceptions import DropItem
 import json
 from django.contrib.gis.geos import GEOSGeometry
@@ -180,7 +181,7 @@ class MediaStatementsDB(object):
             if qsl:
                 sl = qsl[0]
             else:
-                geocoded_loc = self.geocode_locations([pl_loc])
+                location = self.geocode_locations([pl_loc])
                 geom = GEOSGeometry(location.wkt)
                 gdata = location.json
 
