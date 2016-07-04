@@ -26,7 +26,7 @@ django.setup()
 
 from geostatements.models import *
 
-BAD_LOCATIONS = [ loc.location_tag for loc in StatementLocation.objects.filter(bad_loc_flag=True) ]
+BAD_LOCATIONS = [loc.location_tag for loc in StatementLocation.objects.filter(bad_loc_flag=True) ]
 
 class MinistersDB(object):
     collection_name = 'ministers'
@@ -86,7 +86,10 @@ class MediaStatementsDB(object):
         for loc in pls:
             if loc in BAD_LOCATIONS:
                 continue
-            union = set([self.clean_string(l[0]) for l in ges if loc in l[0]])
+            try:
+                union = set([self.clean_string(l[0]) for l in ges if loc in l[0]])
+            except IndexError:
+                logging.error("Bad l index %s %s" % (ges, loc))
             if union:
                 locations.append(union[0])
             else:
@@ -169,7 +172,7 @@ class MediaStatementsDB(object):
         # It's never to soon to optimize.
         # To save repeats lets store these in a dictionary
         # Find ids if not create
-        found_locations, location_spans = self.custom_location_find(item['statement'])
+        found_locations = self.custom_location_find(item['statement'])
         for pl_loc in found_locations:
             qsl = StatementLocation.objects.filter(location_tag=pl_loc)
             # Geocoded location exists in database
