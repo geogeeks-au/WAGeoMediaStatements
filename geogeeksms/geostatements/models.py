@@ -79,12 +79,12 @@ class Gazetteer(models.Model):
 
 class Minister(models.Model):
     first_names = models.CharField(max_length=100)
-    house = models.CharField(max_length=3)
+    house = models.CharField(max_length=10)
     electorate = models.CharField(max_length=60)
     last_name = models.CharField(max_length=50)
     page = models.URLField()
     email = models.EmailField(blank=True)
-    party = models.CharField(max_length=5)
+    party = models.CharField(max_length=15)
     office_address = models.CharField(max_length=250, blank=True)
     position = models.CharField(max_length=150, blank=True)
     current_member = models.BooleanField(default=False)
