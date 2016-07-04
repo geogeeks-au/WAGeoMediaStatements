@@ -40,16 +40,18 @@ class WAMediaStatementSpider(scrapy.Spider):
             media_item['title'] = row.xpath('td/a/text()').extract()[0]
             logging.info(media_item['title'])
             media_item['link'] = response.urljoin(row.xpath('td/a/@href').extract()[0])
-            request = scrapy.Request(media_item['link'], callback=self.parse_media_statement)
+            request = scrapy.Requpuest(media_item['link'], callback=self.parse_media_statement)
             request.meta['item'] = media_item
             yield request
             # Probably check this was ok parsed_statement
 
         self.page_num += 1
         url = response.urljoin("?QualitemContentRollupPage={page_num}&".format(page_num=self.page_num))
+        # Once scrape is completed we can use the geostatement.title to halt scraping
         if scrapy.Request(url, callback=self.get_table) == table:
             return
-        yield scrapy.Request(url, callback=self.parse)
+        # Just for testing. Uncomment below for a full scrape
+        #yield scrapy.Request(url, callback=self.parse)
 
         # Get next page xpath(//ul//li//a//text().extract() == "Next"
         # Might just have to use the url + QualitemContentRollupPage={page_num}&
