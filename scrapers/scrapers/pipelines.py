@@ -38,7 +38,7 @@ class MinistersDB(object):
         """
         if spider.name != 'wamins':
             return item
-        currentMember = True if item['email'] else False
+        currentMember = True if 'email' in item else False
         mins, created = Minister.objects.get_or_create(first_names=item['first_name'],
                                                        email=item['email'],
                                                        last_name=item['last_name'],
