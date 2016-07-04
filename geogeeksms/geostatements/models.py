@@ -19,6 +19,7 @@ class StatementLocation(models.Model):
     geom = models.GeometryField()
     parse_lib = models.CharField(max_length=25, choices=parse_lib)
     geo_lib = models.CharField(max_length=25, choices=geo_lib)
+    bad_loc_flag = models.BooleanField(default=False)
 
     def __str__(self):
         return smart_text(self.location_tag)
