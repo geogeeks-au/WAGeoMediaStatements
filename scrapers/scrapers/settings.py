@@ -90,7 +90,8 @@ CONCURRENT_REQUESTS = 32
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 ITEM_PIPELINES = {
-    #'scrapers.pipelines.MediaStatementsDB': 300,
+    'scrapers.pipelines.MediaStatementsDB': 300,
+    'scrapers.pipelines.MinistersDB': 100,
 }
 
 POSTGRES_URI = ''
