@@ -45,6 +45,7 @@ class GeoStatement(models.Model):
     json = JSONField()
     location = models.ManyToManyField(StatementLocation)
     spans = models.ManyToManyField(LocationSpan)
+    minister = models.ManyToManyField('Minister')
 
     def __str__(self):
         return smart_text(self.link)

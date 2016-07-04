@@ -8,10 +8,10 @@ class WAMediaStatementSpider(scrapy.Spider):
     allowed_domains = ["mediastatements.wa.gov.au"]
     start_urls = [
         "https://www.mediastatements.wa.gov.au/Pages/Default.aspx",
-        "https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Carpenter-Labor-Government.aspx",
-        "https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Gallop-Labor-Government.aspx",
-        "https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Court-Coalition-Government.aspx",
-        "https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Lawrence-Labor-Government.aspx"
+        #"https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Carpenter-Labor-Government.aspx",
+        #"https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Gallop-Labor-Government.aspx",
+        #"https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Court-Coalition-Government.aspx",
+        #"https://www.mediastatements.wa.gov.au/Archived-Statements/Pages/By-Government-Lawrence-Labor-Government.aspx"
     ]
     page_num = 1
 
@@ -43,7 +43,7 @@ class WAMediaStatementSpider(scrapy.Spider):
             request = scrapy.Request(media_item['link'], callback=self.parse_media_statement)
             request.meta['item'] = media_item
             yield request
-            # Probabley check this was ok parsed_statement
+            # Probably check this was ok parsed_statement
 
         self.page_num += 1
         url = response.urljoin("?QualitemContentRollupPage={page_num}&".format(page_num=self.page_num))
