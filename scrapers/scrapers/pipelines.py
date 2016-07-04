@@ -217,5 +217,5 @@ class MediaStatementsDB(object):
         if db_locs:
             gs.location.add(*db_locs)
         if mins:
-            gs.ministers.add(mins)
+            gs.minister.add(*[m.id for m in mins])
         #logging.error("Failed to write geostatement %s" % item['title'])
