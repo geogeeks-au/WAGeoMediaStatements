@@ -87,11 +87,12 @@ class MediaStatementsDB(object):
             if loc in BAD_LOCATIONS:
                 continue
             try:
-                union = set([self.clean_string(l) for l in ges if loc in l)
+                union = set([self.clean_string(l) for l in ges if loc in l])
             except IndexError:
                 logging.error("Bad l index %s %s" % (ges, loc))
             if union:
-                locations.append(union[0])
+                for u in union:
+                    locations.append(u)
             else:
                 locations.append(self.clean_string(loc))
         return locations
