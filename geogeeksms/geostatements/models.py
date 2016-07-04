@@ -6,6 +6,7 @@ from django.contrib.gis.db import models
 parse_lib = [
     ("polyglot", "polylglot"),
     ("geograpy", "geograpy"),
+    ("combined", "combined"),
 ]
 
 geo_lib = [

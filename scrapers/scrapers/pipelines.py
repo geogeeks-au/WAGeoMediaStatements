@@ -5,6 +5,7 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
+# Have a look at https://spacy.io/
 # TODO: Use SyntaxNet and tensorflow to pull out locations
 from scrapy.exceptions import DropItem
 import json
@@ -25,6 +26,7 @@ django.setup()
 
 from geostatements.models import *
 
+BAD_LOCATIONS = [ loc.location_tag for loc in StatementLocation.objects.filter(bad_loc_flag=True) ]
 
 class MinistersDB(object):
     collection_name = 'ministers'
@@ -61,6 +63,37 @@ class MediaStatementsDB(object):
     def __init__(self):
         self.ids_seen = set()
 
+    def clean_string(self, string):
+        """
+        Helper function to clear up bad locations
+        :param string:
+        :return:
+        """
+        string = string.strip("“. '”")
+        return string
+
+
+    def custom_location_find(self, statement):
+        """
+        Using both polyglot and geograpy together till we can figure out how to retrain
+        evidence for :https://districtdatalabs.silvrback.com/named-entity-recognition-and-classification-for-entity-extraction
+        :param statement:
+        :return:
+        """
+        locations = []
+        pls = self.find_locations_polyglot(statement)[0]
+        ges = self.find_geograpy_locations(statement)
+        for loc in pls:
+            if loc in BAD_LOCATIONS:
+                continue
+            union = set([self.clean_string(l[0]) for l in ges if loc in l[0]])
+            if union:
+                locations.append(union[0])
+            else:
+                locations.append(self.clean_string(loc))
+        return locations
+
+
     def find_locations_polyglot(self, statement):
         """
         Uses PolyGLot NLP to find Named entities and passes back a set of locations found
@@ -70,8 +103,8 @@ class MediaStatementsDB(object):
         Main -> Roads Western Australia, Kwinanna Freeway.
         Try to check Gazeteer and database first, use googlemaps as fallback.
         Perform something similar as to geograpy LOC = Likely, ORG = Possible, Person=Unlikley
-        :param statement:
-        :return:
+        :param statement: Text containing locations to extract
+        :return: tuple of locations, spans
         """
         # Probably should be using e.start and e.end for entities so we know where they are in statement
         text = Text(statement)
@@ -136,8 +169,8 @@ class MediaStatementsDB(object):
         # It's never to soon to optimize.
         # To save repeats lets store these in a dictionary
         # Find ids if not create
-        polyglot_locations, location_spans = self.find_locations_polyglot(item['statement'])
-        for pl_loc in polyglot_locations:
+        found_locations, location_spans = self.custom_location_find(item['statement'])
+        for pl_loc in found_locations:
             qsl = StatementLocation.objects.filter(location_tag=pl_loc)
             # Geocoded location exists in database
             if qsl:
@@ -153,7 +186,7 @@ class MediaStatementsDB(object):
                         location_tag=location_tag,
                         geocoded_data=gdata,
                         geom=geom,
-                        parse_lib="polyglot",
+                        parse_lib="combined",
                         geo_lib="geocoder"
                     )
                 except:
