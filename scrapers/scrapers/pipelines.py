@@ -181,7 +181,7 @@ class MediaStatementsDB(object):
             if qsl:
                 sl = qsl[0]
             else:
-                location = self.geocode_locations([pl_loc])
+                location = self.geocode_locations([pl_loc])[0]
                 geom = GEOSGeometry(location.wkt)
                 gdata = location.json
 
