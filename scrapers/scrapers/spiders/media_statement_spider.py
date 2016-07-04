@@ -40,7 +40,7 @@ class WAMediaStatementSpider(scrapy.Spider):
             media_item['title'] = row.xpath('td/a/text()').extract()[0]
             logging.info(media_item['title'])
             media_item['link'] = response.urljoin(row.xpath('td/a/@href').extract()[0])
-            request = scrapy.Requpuest(media_item['link'], callback=self.parse_media_statement)
+            request = scrapy.Request(media_item['link'], callback=self.parse_media_statement)
             request.meta['item'] = media_item
             yield request
             # Probably check this was ok parsed_statement
