@@ -196,6 +196,10 @@ class MediaStatementsDB(object):
         statement = item['statement']
         statement_date = item['date']
         data = {'minister': item['minister'], 'portfolio': item['portfolio']}
+        mins = Minister.objects.filter(last_name__in=map(lambda x: x.strip(),
+                                                          item['minister'].split(";")
+                                                          )
+                                        ).filter(current_member=True)
         try:
             gs, created = GeoStatement.objects.get_or_create(
                 link=link,
@@ -203,5 +207,6 @@ class MediaStatementsDB(object):
                 statement_date=datetime.datetime.strptime(statement_date, "%d/%m/%Y"),
                 json=data)
             gs.location.add(db_locs)
+            gs.ministers.add(mins)
         except:
             logging.error("Failed to write geostatement %s" % item['title'])
