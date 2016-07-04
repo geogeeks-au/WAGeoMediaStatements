@@ -5,10 +5,12 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
+# TODO: Use SyntaxNet and tensorflow to pull out locations
 from scrapy.exceptions import DropItem
 import json
 from django.contrib.gis.geos import GEOSGeometry
 from polyglot.text import Text
+from geograpy import extraction
 import geocoder
 import os
 import sys
@@ -22,6 +24,31 @@ os.environ["DJANGO_SETTINGS_MODULE"] = "geogeeksms.settings"
 django.setup()
 
 from geostatements.models import *
+
+
+class MinistersDB(object):
+    collection_name = 'ministers'
+
+    def process_item(self, item, spider):
+        """
+        Process ministers
+        :param item:
+        :param spider:
+        :return:
+        """
+        if spider.name != 'wamins':
+            return item
+        currentMember = True if item['email'] else False
+        mins, created = Minister.objects.get_or_create(first_names=item['first_name'],
+                                                       email=item['email'],
+                                                       last_name=item['last_name'],
+                                                       house=item['house'],
+                                                       electorate=item['electorate'],
+                                                       party=item['party'],
+                                                       page=item['page'],
+                                                       office_address=item['office_address'],
+                                                       position=item['position'],
+                                                       current_member=currentMember)
 
 
 class MediaStatementsDB(object):
@@ -39,6 +66,7 @@ class MediaStatementsDB(object):
         i.e Leach -> Highway, Bull-> Creek Railway Station,
         Main -> Roads Western Australia, Kwinanna Freeway.
         Try to check Gazeteer and database first, use googlemaps as fallback.
+        Perform something similar as to geograpy LOC = Likely, ORG = Possible, Person=Unlikley
         :param statement:
         :return:
         """
@@ -53,6 +81,19 @@ class MediaStatementsDB(object):
                 locations.append(" ".join(e))
                 spans.append((e.start, e.end))
         return locations, spans
+
+    def find_geograpy_locations(self, statement):
+        """
+        I actually extended geograpy to include more potential locations.
+        I think we get a few more false postivies, so we need to do some filtering.
+        TODO: Change the extraction script to include allow for supplying tags.
+        Person and Organisation tags should be flagged as possible locations.`x
+        :param statement:
+        :return:
+        """
+        e = extraction.Extractor(text=statement)
+        e.find_entities()
+        return e.places
 
     def geocode_locations(self, locations):
         """
@@ -83,6 +124,8 @@ class MediaStatementsDB(object):
         :param spider:
         :return:
         """
+        if spider.name != "wams":
+            return item
         db_locs = []
         logging.info("Processing statement {}".format(item['title']))
         # I think we can get positions of location in Statement which might be good to save
@@ -118,7 +161,7 @@ class MediaStatementsDB(object):
         statement_date = item['date']
         data = {'minister': item['minister'], 'portfolio': item['portfolio']}
         try:
-            gs = GeoStatement.objects.get_or_create(
+            gs, created = GeoStatement.objects.get_or_create(
                 link=link,
                 statement=statement,
                 statement_date=datetime.datetime.strptime(statement_date, "%d/%m/%Y"),

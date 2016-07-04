@@ -5,6 +5,7 @@ from django.contrib.gis.db import models
 
 parse_lib = [
     ("polyglot", "polylglot"),
+    ("geograpy", "geograpy"),
 ]
 
 geo_lib = [
@@ -74,3 +75,19 @@ class Gazetteer(models.Model):
 
     def __str__(self):
         return smart_text("%s, %s" % (self.name, self.state_id))
+
+
+class Minister(models.Model):
+    first_names = models.CharField(max_length=100)
+    house = models.CharField(max_length=3)
+    electorate = models.CharField(max_length=60)
+    last_name = models.CharField(max_length=50)
+    page = models.URLField()
+    email = models.EmailField(blank=True)
+    party = models.CharField(max_length=5)
+    office_address = models.CharField(max_length=250, blank=True)
+    position = models.CharField(max_length=150, blank=True)
+    current_member = models.BooleanField(default=False)
+
+    def __str__(self):
+        return smart_text("%s %s" % (self.first_names, self.last_name))

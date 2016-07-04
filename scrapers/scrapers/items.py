@@ -15,3 +15,14 @@ class MediaStatement(Item):
     link = Field()
     statement = Field()
     locations = Field()
+
+class Minister(Item):
+    first_name = Field()
+    email = Field()
+    last_name = Field()
+    house = Field()
+    electorate = Field()
+    party = Field()
+    page = Field()
+    office_address = Field()
+    position = Field()
