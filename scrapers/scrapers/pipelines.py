@@ -39,15 +39,18 @@ class MinistersDB(object):
         if spider.name != 'wamins':
             return item
         currentMember = True if 'email' in item else False
+        position = item['position'] if 'position' in item else None
+        oa = item['office_address'] if 'office_address' in item else None
+        email = item['email'] if 'email' in item else None
         mins, created = Minister.objects.get_or_create(first_names=item['first_name'],
-                                                       email=item['email'],
+                                                       email=email,
                                                        last_name=item['last_name'],
                                                        house=item['house'],
                                                        electorate=item['electorate'],
                                                        party=item['party'],
                                                        page=item['page'],
-                                                       office_address=item['office_address'],
-                                                       position=item['position'],
+                                                       office_address=oa,
+                                                       position=position,
                                                        current_member=currentMember)
 
 
