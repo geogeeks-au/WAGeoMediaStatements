@@ -94,3 +94,20 @@ class Minister(models.Model):
 
     def __str__(self):
         return smart_text("%s %s" % (self.first_names, self.last_name))
+
+
+class Geonoma(models.Model):
+    gid = models.IntegerField()
+    feature_nu = models.IntegerField()
+    geographic = models.CharField(max_length=254)
+    feature_cl = models.CharField(max_length=254)
+    name_appro = models.CharField(max_length=254)
+    easting = models.IntegerField()
+    northing = models.IntegerField()
+    zone = models.IntegerField()
+    decimal_la = models.FloatField()
+    decimal_lo = models.FloatField()
+    geom = models.PointField(srid=4283)
+
+    def __str__(self):
+        return smart_text("%s %s" % (self.feature_cl, self.name_appro))
