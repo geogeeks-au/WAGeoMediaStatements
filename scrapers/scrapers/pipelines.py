@@ -7,6 +7,7 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 # Have a look at https://spacy.io/
 # TODO: Use SyntaxNet and tensorflow to pull out locations
+# TODO: Use the geonoma and gazetteer
 from __future__ import unicode_literals
 from scrapy.exceptions import DropItem
 import json
@@ -82,7 +83,7 @@ class MediaStatementsDB(object):
         :return:
         """
         locations = []
-        pls = self.find_locations_polyglot(statement)[0]
+        pls = self.find_locations_polyglot(statement)
         ges = self.find_geograpy_locations(statement)
         for loc in pls:
             if loc in BAD_LOCATIONS:
@@ -116,12 +117,10 @@ class MediaStatementsDB(object):
         # For all I-LOC make an attempt to geocode but restrict to WA
         # We should attempt to record the span of each tag
         locations = []
-        spans = []
         for e in text.entities:
             if e.tag == u'I-LOC' or e.tag == u'I-ORG':
-                locations.append(" ".join(e))
-                spans.append((e.start, e.end))
-        return locations, spans
+                locations.append((" ".join(e), e.tag))
+        return locations
 
     def find_geograpy_locations(self, statement):
         """
