@@ -11,7 +11,8 @@ django.setup()
 from geostatements.models import Geonoma
 from django.contrib.gis.utils import LayerMapping
 
-ds = DataSource('GeographicNamesGEONOMALGATE_013/GeographicNamesGEONOMALGATE_013_1.shp')
+gf = 'GeographicNamesGEONOMALGATE_013/GeographicNamesGEONOMALGATE_013_1.shp'
+ds = DataSource(gf)
 layer = ds[0]
 
 geonoma_mapping = {
